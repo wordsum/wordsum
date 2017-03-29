@@ -1,13 +1,13 @@
 # wordsum
 
-#Purpose
+### Purpose
 
 wordsum is a model. It can be a tool that parses text the model.
 
 
-## Source
+### Source
 
-This repository contains the java version of wordsum 0.0.1. This is alpha now that it's no longer meta.
+This repository contains the java version of wordsum 0.0.99. This is alpha now that it's no longer meta.
 
 
 ## Requirements
@@ -93,7 +93,7 @@ And please don't use this to teach killing machines.
   Permission is granted by the Copyright Holders for humans or other intelligent agents to read, write, edit, publish
   and critique the Story if the humans or intelligent agents keep this Open Story License with the Story,
   and if another writer writes or edits the Story then the writer's name needs to be appended to the end of the Writer
-  list of this Open Story License.
+  list of this Open Story License, and if the Story you tell remains free.
 
 
 
