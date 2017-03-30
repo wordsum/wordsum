@@ -2,7 +2,12 @@
 
 ### Purpose
 
-wordsum-java is a tool to output a version of the wordsum-model's Text Model.
+wordsum-java is a tool that outputs a version of the wordsum-model's Text Model.
+
+
+### The model
+
+Examples and definition of the model can be found in the http://github.com/wordsum/wordsum-model
 
 
 ### Source
@@ -11,15 +16,17 @@ This repository contains the java version of wordsum 0.0.99. This is alpha now t
 
 The code is raw. It began as objects building object models then it became static methods building objects. It began trying to learn a language while trying to learn NLP. Then it became that language didn't matter and the only thing NLP does is help model text, so I can model a story for a machine.
 
-The code of wordsum is very far from perfect if it were a location. There are a lot of mistakes I haven't edited and rewrote for I have the text model in the state for me to move beyond and the text model, so I can model parts of a fiction story like character, plot, setting.
+The code of wordsum is far from perfect if it were a location. There are embarrassing parts that need editing and rewriting yet again. However, the text model is in the state, so a story can be modelled like character, plot, setting, and the development team is small, so we are putting efforts to model a story.
 
 I reason open sourcing the code and releasing it to the world will encourage me to fix it else be embarrassed for its existence even if no human or entity with agency ever reads it.
+
 
 ### Requirements
 
 Time and focus as well Java 8 and access to the dependencies. Gradle is required if you want to use gradle build.gradle, and the gradle has worked on my machine.
 
-### buld, test, deploy
+
+### build, test, deploy
 
 The build, text and deploy pipe line doesn't exists because it has yet to help model a story.
 
@@ -43,11 +50,6 @@ The build.gradle is a good start. It worked on my machine.
 7. etc...
 
 
-If you want to write and edit this to be less bad then I would be in you debit as would society, so A.I. can read
-our fiction and know what that means that would be cool.
-
-And please don't use this to teach killing machines.
-
 ## Copyright
 
   **Open Story License**
@@ -60,10 +62,7 @@ And please don't use this to teach killing machines.
 
   **copyright &copy; 2017 Kalab J. Oster&trade;**
 
-  Permission is granted by the Copyright Holders for humans or other intelligent agents to read, write, edit, publish
-  and critique the Story if the humans or intelligent agents keep this Open Story License with the Story,
-  and if another writer writes or edits the Story then the writer's name needs to be appended to the end of the Writer
-  list of this Open Story License, and if the Story you tell remains free.
+  Permission is granted by the Copyright Holders for humans or other intelligent agents to read, write, edit, publish and critique the Story if the humans or intelligent agents keep this Open Story License with the Story, and if another writer writes or edits the Story then the writer's name needs to be appended to the end of the Writer list of this Open Story License, and if the Story you tell remains free.
 
 
 
