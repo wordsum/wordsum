@@ -2,35 +2,35 @@
 
 ### Purpose
 
-wordsum-java is a tool that outputs a version of the wordsum-model's Text Model.
+wordsum-java is a tool that currently only outputs the wordsum-model's Text Model.
 
 
 ### The model
 
-Examples and definition of the model can be found in the http://github.com/wordsum/wordsum-model
+Examples and definition of the model can be found in the https://github.com/wordsum/wordsum-models
 
 
 ### Source
 
 This repository contains the java version of wordsum 0.0.99. This is alpha now that it's no longer meta.
 
-The code is raw. It began as objects building object models then it became static methods building objects. It began trying to learn a language while trying to learn NLP. Then it became that language didn't matter and the only thing NLP does is help model text, so I can model a story for a machine.
+The code is raw. It began as objects building object models then it became static methods building objects. It began trying to learn a language while trying to learn NLP. Then it became that language didn't matter and the only thing NLP does is help model text, so wordsum can model a story for a machine.
 
 The code of wordsum is far from perfect if it were a location. There are embarrassing parts that need editing and rewriting yet again. However, the text model is in the state, so a story can be modelled like character, plot, setting, and the development team is small, so we are putting efforts to model a story.
 
-I reason open sourcing the code and releasing it to the world will encourage me to fix it else be embarrassed for its existence even if no human or entity with agency ever reads it.
+The code is open sourced and released to the world, so it will encourage the creators to fix it else be embarrassed even if no other human or entity with agency ever reads it.
 
 
 ### Requirements
 
-Time and focus as well Java 8 and access to the dependencies. Gradle is required if you want to use gradle build.gradle, and the gradle has worked on my machine.
+Time and focus as well Java 8 and access to the library dependencies. Gradle is required if you want to use gradle build.gradle, and the gradle has worked on at least one machine.
 
 
 ### build, test, deploy
 
 The build, text and deploy pipe line doesn't exists because it has yet to help model a story.
 
-The build.gradle is a good start. It worked on my machine.
+The build.gradle is a good start. It has worked on one machine.
 
 
 ### The Most Embarrassing Parts of wordsum-java:
