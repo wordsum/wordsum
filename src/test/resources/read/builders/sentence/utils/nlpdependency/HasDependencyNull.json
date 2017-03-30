@@ -1,0 +1,122 @@
+{
+  "file": "/home/kalab/github/wordsum-java/src/test/resources/read/builders/sentence/structure/simple/SubjectVerbObject.txt",
+  "version": "0.9.0",
+  "gitSha": "51952dbc2fdddaee32ebf0740364be16a9cdebc9",
+  "localDateTime": "2016-08-15T19:23:00.800",
+  "writers": [
+    "Kalab J. Oster"
+  ],
+  "editors": [
+    "Kaleb Oster"
+  ],
+  "publishers": [
+    "Word Prostitute"
+  ],
+  "fileState": "I ran the road.\n\nI run the road.\n\nI ran the long road.\n\nI run the long road.\n\nI ran road.\n\nI run road.\n\nJohn runs the road.\n\nJohn ran the road.\n\nTall John runs the road.\n\nTall John ran the road.\n\nI jump the road.\n\nI jumped the road.\n\nSue jumps the road.\n\nSue jumped the road.\n\nFunny Sue jumps the road.\n\nFunny Sue jumped the road.\n",
+  "wordCount": 68,
+  "paragraphStates": [
+    {
+      "paragraph": "I ran the road.",
+      "wordCount": 4,
+      "order": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I ran the road.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I ran the road.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "ran",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "ran"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I ran the road."
+          },
+          "jazzyState": {
+            "text": "I ran the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    }
+  ]
+}

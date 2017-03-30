@@ -1,0 +1,5720 @@
+{
+  "file": "/home/kalab/github/wordsum-java/build/resources/test/read/builders/sentence/structure/simple/SubjectVerbObject.txt",
+  "version": "0.0.5",
+  "gitSha": "30edb575085b45266571fd12f3b14e086963ece2",
+  "localDateTime": "2017-02-26T07:11:42.820",
+  "copyright": "",
+  "writers": [
+    "Kalab J. Oster"
+  ],
+  "editors": [
+    "Kalab J. Oster"
+  ],
+  "publishers": [
+    "Word Prostitute®"
+  ],
+  "fileState": "I ran the road.\n\nI run the road.\n\nI ran the long road.\n\nI run the long road.\n\nI ran road.\n\nI run road.\n\nJohn runs the road.\n\nJohn ran the road.\n\nTall John runs the road.\n\nTall John ran the road.\n\nI jump the road.\n\nI quickly jump the dark road.\n\nI jumped the road.\n\nSally jumps the road.\n\nSally jumped the road.\n\nSally over jumped the road.\n\nFunny Sally jumps the road.\n\nFunny Sally very quickly jumps the road.\n\nFunny Sally jumped the road.\n\nSally is the ruler.\n\nHe is the clown.\n\nSally was manager.\n\nHe was the leader.\n\nSally begins the test.\n\nI begin the test.\n\nI am the king,\n",
+  "wordCount": 113,
+  "paragraphStates": [
+    {
+      "paragraph": "I ran the road.",
+      "wordCount": 4,
+      "order": 1,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I ran the road.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "I ran the road.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBD",
+                "text": "ran",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, ran-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(ran-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(ran-2, road-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(ran-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "ran"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I ran the road."
+          },
+          "jazzyState": {
+            "text": "I ran the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I run the road.",
+      "wordCount": 4,
+      "order": 2,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I run the road.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "I run the road.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBP",
+                "text": "run",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, run-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(run-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(run-2, road-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(run-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "run"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I run the road."
+          },
+          "jazzyState": {
+            "text": "I run the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I ran the long road.",
+      "wordCount": 5,
+      "order": 3,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I ran the long road.",
+          "wordCount": 5,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "I ran the long road.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBD",
+                "text": "ran",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "JJ",
+                "text": "long",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, ran-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(ran-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(ran-2, road-5)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(ran-2, .-6)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-5, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "amod(road-5, long-4)",
+                  "name": "adjectival modifier",
+                  "tag": "amod"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "long",
+                  "ner": "O",
+                  "tag": "JJ",
+                  "word": "long"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "JJ": "long"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_1_node_2_node": {
+                  "NN": "road"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "ran"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I ran the long road."
+          },
+          "jazzyState": {
+            "text": "I ran the long road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I run the long road.",
+      "wordCount": 5,
+      "order": 4,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I run the long road.",
+          "wordCount": 5,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "I run the long road.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBP",
+                "text": "run",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "JJ",
+                "text": "long",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, run-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(run-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(run-2, road-5)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(run-2, .-6)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-5, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "amod(road-5, long-4)",
+                  "name": "adjectival modifier",
+                  "tag": "amod"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "long",
+                  "ner": "O",
+                  "tag": "JJ",
+                  "word": "long"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "JJ": "long"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_1_node_2_node": {
+                  "NN": "road"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "run"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I run the long road."
+          },
+          "jazzyState": {
+            "text": "I run the long road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I ran road.",
+      "wordCount": 3,
+      "order": 5,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I ran road.",
+          "wordCount": 3,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "I ran road.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBD",
+                "text": "ran",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, ran-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(ran-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(ran-2, road-3)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(ran-2, .-4)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "ran"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I ran road."
+          },
+          "jazzyState": {
+            "text": "I ran road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I run road.",
+      "wordCount": 3,
+      "order": 6,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I run road.",
+          "wordCount": 3,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "I run road.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBP",
+                "text": "run",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, run-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(run-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(run-2, road-3)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(run-2, .-4)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "run"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I run road."
+          },
+          "jazzyState": {
+            "text": "I run road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "John runs the road.",
+      "wordCount": 4,
+      "order": 7,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "John runs the road.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "John runs the road.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "John",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBZ",
+                "text": "runs",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, runs-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "runs"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(runs-2, John-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "John",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "John"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(runs-2, road-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(runs-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "John"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "runs"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "John runs the road."
+          },
+          "jazzyState": {
+            "text": "John runs the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "John ran the road.",
+      "wordCount": 4,
+      "order": 8,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "John ran the road.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "John ran the road.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "John",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBD",
+                "text": "ran",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, ran-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(ran-2, John-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "John",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "John"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(ran-2, road-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(ran-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "John"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "ran"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "John ran the road."
+          },
+          "jazzyState": {
+            "text": "John ran the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Tall John runs the road.",
+      "wordCount": 5,
+      "order": 9,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Tall John runs the road.",
+          "wordCount": 5,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "Tall John runs the road.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "Tall",
+                "net": "O"
+              },
+              {
+                "pos": "NNP",
+                "text": "John",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBZ",
+                "text": "runs",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, runs-3)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "runs"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "compound(John-2, Tall-1)",
+                  "name": "compound modifier",
+                  "tag": "compound"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Tall",
+                  "ner": "O",
+                  "tag": "NNP",
+                  "word": "Tall"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "John",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "John"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(runs-3, John-2)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "John",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "John"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(runs-3, road-5)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(runs-3, .-6)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-5, the-4)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_1_node": {
+                  "NNP": "John"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "runs"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "NNP": "Tall"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "Tall John runs the road."
+          },
+          "jazzyState": {
+            "text": "Tall John runs the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Tall John ran the road.",
+      "wordCount": 5,
+      "order": 10,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Tall John ran the road.",
+          "wordCount": 5,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "Tall John ran the road.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "Tall",
+                "net": "O"
+              },
+              {
+                "pos": "NNP",
+                "text": "John",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBD",
+                "text": "ran",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, ran-3)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "compound(John-2, Tall-1)",
+                  "name": "compound modifier",
+                  "tag": "compound"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Tall",
+                  "ner": "O",
+                  "tag": "NNP",
+                  "word": "Tall"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "John",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "John"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(ran-3, John-2)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "John",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "John"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(ran-3, road-5)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(ran-3, .-6)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "run",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "ran"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-5, the-4)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_1_node": {
+                  "NNP": "John"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "ran"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "NNP": "Tall"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "Tall John ran the road."
+          },
+          "jazzyState": {
+            "text": "Tall John ran the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I jump the road.",
+      "wordCount": 4,
+      "order": 11,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I jump the road.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "I jump the road.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBP",
+                "text": "jump",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, jump-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "jump"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jump-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "jump"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(jump-2, road-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "jump"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(jump-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "jump"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "jump"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I jump the road."
+          },
+          "jazzyState": {
+            "text": "I jump the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I quickly jump the dark road.",
+      "wordCount": 6,
+      "order": 12,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I quickly jump the dark road.",
+          "wordCount": 6,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "I quickly jump the dark road.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "RB",
+                "text": "quickly",
+                "net": "O"
+              },
+              {
+                "pos": "VBP",
+                "text": "jump",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "JJ",
+                "text": "dark",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, jump-3)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "jump"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jump-3, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "jump"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(jump-3, quickly-2)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "quickly",
+                  "ner": "O",
+                  "tag": "RB",
+                  "word": "quickly"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "jump"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(jump-3, road-6)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "jump"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(jump-3, .-7)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "jump"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-6, the-4)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "amod(road-6, dark-5)",
+                  "name": "adjectival modifier",
+                  "tag": "amod"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "dark",
+                  "ner": "O",
+                  "tag": "JJ",
+                  "word": "dark"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_2_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node": {
+                  "RB": "quickly"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_3_node": {
+                  "PERIOD": "."
+                },
+                "s_node_2_node_1_node_1_node": {
+                  "JJ": "dark"
+                },
+                "s_node_2_node_1_node_2_node": {
+                  "NN": "road"
+                },
+                "s_node_2_node_0_node": {
+                  "VBP": "jump"
+                },
+                "s_node_2_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "ADVP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I quickly jump the dark road."
+          },
+          "jazzyState": {
+            "text": "I quickly jump the dark road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I jumped the road.",
+      "wordCount": 4,
+      "order": 13,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I jumped the road.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "I jumped the road.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBD",
+                "text": "jumped",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, jumped-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jumped-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(jumped-2, road-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(jumped-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "jumped"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "I jumped the road."
+          },
+          "jazzyState": {
+            "text": "I jumped the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Sally jumps the road.",
+      "wordCount": 4,
+      "order": 14,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Sally jumps the road.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "Sally jumps the road.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBZ",
+                "text": "jumps",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, jumps-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jumps-2, Sally-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(jumps-2, road-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(jumps-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "jumps"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "Sally jumps the road."
+          },
+          "jazzyState": {
+            "text": "Sally jumps the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Sally jumped the road.",
+      "wordCount": 4,
+      "order": 15,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Sally jumped the road.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "Sally jumped the road.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBD",
+                "text": "jumped",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, jumped-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jumped-2, Sally-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(jumped-2, road-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(jumped-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "jumped"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "Sally jumped the road."
+          },
+          "jazzyState": {
+            "text": "Sally jumped the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Sally over jumped the road.",
+      "wordCount": 5,
+      "order": 16,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Sally over jumped the road.",
+          "wordCount": 5,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "Sally over jumped the road.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "pos": "IN",
+                "text": "over",
+                "net": "O"
+              },
+              {
+                "pos": "VBD",
+                "text": "jumped",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, jumped-3)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jumped-3, Sally-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(jumped-3, over-2)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "over",
+                  "ner": "O",
+                  "tag": "IN",
+                  "word": "over"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(jumped-3, road-5)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(jumped-3, .-6)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-5, the-4)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_2_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node": {
+                  "RB": "over"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_3_node": {
+                  "PERIOD": "."
+                },
+                "s_node_2_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_2_node_0_node": {
+                  "VBD": "jumped"
+                },
+                "s_node_2_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "ADVP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "Sally over jumped the road."
+          },
+          "jazzyState": {
+            "text": "Sally over jumped the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Funny Sally jumps the road.",
+      "wordCount": 5,
+      "order": 17,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Funny Sally jumps the road.",
+          "wordCount": 5,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "Funny Sally jumps the road.",
+            "coreAnnotations": [
+              {
+                "pos": "JJ",
+                "text": "Funny",
+                "net": "O"
+              },
+              {
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBZ",
+                "text": "jumps",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, jumps-3)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "amod(Sally-2, Funny-1)",
+                  "name": "adjectival modifier",
+                  "tag": "amod"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "funny",
+                  "ner": "O",
+                  "tag": "JJ",
+                  "word": "Funny"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jumps-3, Sally-2)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(jumps-3, road-5)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(jumps-3, .-6)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-5, the-4)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_1_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "jumps"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "NNP": "Funny"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "Funny Sally jumps the road."
+          },
+          "jazzyState": {
+            "text": "Funny Sally jumps the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Funny Sally very quickly jumps the road.",
+      "wordCount": 7,
+      "order": 18,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Funny Sally very quickly jumps the road.",
+          "wordCount": 7,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "Funny Sally very quickly jumps the road.",
+            "coreAnnotations": [
+              {
+                "pos": "JJ",
+                "text": "Funny",
+                "net": "O"
+              },
+              {
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "pos": "RB",
+                "text": "very",
+                "net": "O"
+              },
+              {
+                "pos": "RB",
+                "text": "quickly",
+                "net": "O"
+              },
+              {
+                "pos": "VBZ",
+                "text": "jumps",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, jumps-5)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "amod(Sally-2, Funny-1)",
+                  "name": "adjectival modifier",
+                  "tag": "amod"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "funny",
+                  "ner": "O",
+                  "tag": "JJ",
+                  "word": "Funny"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(quickly-4, very-3)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "very",
+                  "ner": "O",
+                  "tag": "RB",
+                  "word": "very"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "quickly",
+                  "ner": "O",
+                  "tag": "RB",
+                  "word": "quickly"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jumps-5, Sally-2)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(jumps-5, quickly-4)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "quickly",
+                  "ner": "O",
+                  "tag": "RB",
+                  "word": "quickly"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(jumps-5, road-7)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(jumps-5, .-8)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-7, the-6)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_2_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_3_node": {
+                  "PERIOD": "."
+                },
+                "s_node_2_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_1_node_1_node": {
+                  "RB": "quickly"
+                },
+                "s_node_2_node_0_node": {
+                  "VBZ": "jumps"
+                },
+                "s_node_0_node_1_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_2_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_0_node": {
+                  "RB": "very"
+                },
+                "s_node_0_node_0_node": {
+                  "NNP": "Funny"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "ADVP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "Funny Sally very quickly jumps the road."
+          },
+          "jazzyState": {
+            "text": "Funny Sally very quickly jumps the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Funny Sally jumped the road.",
+      "wordCount": 5,
+      "order": 19,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Funny Sally jumped the road.",
+          "wordCount": 5,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "Funny Sally jumped the road.",
+            "coreAnnotations": [
+              {
+                "pos": "JJ",
+                "text": "Funny",
+                "net": "O"
+              },
+              {
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBD",
+                "text": "jumped",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "road",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, jumped-3)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "amod(Sally-2, Funny-1)",
+                  "name": "adjectival modifier",
+                  "tag": "amod"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "funny",
+                  "ner": "O",
+                  "tag": "JJ",
+                  "word": "Funny"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jumped-3, Sally-2)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(jumped-3, road-5)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(jumped-3, .-6)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "jump",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "jumped"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(road-5, the-4)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "road",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "road"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "road"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_1_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "jumped"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "NNP": "Funny"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "road."
+                ]
+              }
+            },
+            "sentence": "Funny Sally jumped the road."
+          },
+          "jazzyState": {
+            "text": "Funny Sally jumped the road.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Sally is the ruler.",
+      "wordCount": 4,
+      "order": 20,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Sally is the ruler.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "Sally is the ruler.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBZ",
+                "text": "is",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "ruler",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, ruler-4)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "ruler",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "ruler"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(ruler-4, Sally-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "ruler",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "ruler"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "aux",
+                  "string": "cop(ruler-4, is-2)",
+                  "name": "copula",
+                  "tag": "cop"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "be",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "is"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "ruler",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "ruler"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(ruler-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "ruler",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "ruler"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(ruler-4, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "ruler",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "ruler"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "ruler"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "is"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "ruler."
+                ]
+              }
+            },
+            "sentence": "Sally is the ruler."
+          },
+          "jazzyState": {
+            "text": "Sally is the ruler.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "He is the clown.",
+      "wordCount": 4,
+      "order": 21,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "He is the clown.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "He is the clown.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "He",
+                "net": "O"
+              },
+              {
+                "pos": "VBZ",
+                "text": "is",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "clown",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, clown-4)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "clown",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "clown"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(clown-4, He-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "he",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "He"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "clown",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "clown"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "aux",
+                  "string": "cop(clown-4, is-2)",
+                  "name": "copula",
+                  "tag": "cop"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "be",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "is"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "clown",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "clown"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(clown-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "clown",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "clown"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(clown-4, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "clown",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "clown"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "clown"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "He"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "is"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "clown."
+                ]
+              }
+            },
+            "sentence": "He is the clown."
+          },
+          "jazzyState": {
+            "text": "He is the clown.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Sally was manager.",
+      "wordCount": 3,
+      "order": 22,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Sally was manager.",
+          "wordCount": 3,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "Sally was manager.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBD",
+                "text": "was",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "manager",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, manager-3)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "manager",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "manager"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(manager-3, Sally-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "manager",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "manager"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "aux",
+                  "string": "cop(manager-3, was-2)",
+                  "name": "copula",
+                  "tag": "cop"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "be",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "was"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "manager",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "manager"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(manager-3, .-4)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "manager",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "manager"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "NN": "manager"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "was"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "manager."
+                ]
+              }
+            },
+            "sentence": "Sally was manager."
+          },
+          "jazzyState": {
+            "text": "Sally was manager.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "He was the leader.",
+      "wordCount": 4,
+      "order": 23,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "He was the leader.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Past"
+          ],
+          "nlpState": {
+            "sentence": "He was the leader.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "He",
+                "net": "O"
+              },
+              {
+                "pos": "VBD",
+                "text": "was",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "leader",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, leader-4)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "leader",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "leader"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(leader-4, He-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "he",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "He"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "leader",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "leader"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "aux",
+                  "string": "cop(leader-4, was-2)",
+                  "name": "copula",
+                  "tag": "cop"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "be",
+                  "ner": "O",
+                  "tag": "VBD",
+                  "word": "was"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "leader",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "leader"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(leader-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "leader",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "leader"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(leader-4, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "leader",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "leader"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "leader"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "He"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "was"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "leader."
+                ]
+              }
+            },
+            "sentence": "He was the leader."
+          },
+          "jazzyState": {
+            "text": "He was the leader.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Sally begins the test.",
+      "wordCount": 4,
+      "order": 24,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Sally begins the test.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "Sally begins the test.",
+            "coreAnnotations": [
+              {
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "pos": "VBZ",
+                "text": "begins",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "test",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, begins-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "begin",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "begins"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(begins-2, Sally-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Sally",
+                  "ner": "PERSON",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "begin",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "begins"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(begins-2, test-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "test",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "test"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "begin",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "begins"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(begins-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "begin",
+                  "ner": "O",
+                  "tag": "VBZ",
+                  "word": "begins"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(test-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "test",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "test"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "test"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "begins"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "test."
+                ]
+              }
+            },
+            "sentence": "Sally begins the test."
+          },
+          "jazzyState": {
+            "text": "Sally begins the test.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I begin the test.",
+      "wordCount": 4,
+      "order": 25,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I begin the test.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "I begin the test.",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBP",
+                "text": "begin",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "test",
+                "net": "O"
+              },
+              {
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, begin-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "begin",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "begin"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(begin-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "begin",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "begin"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(begin-2, test-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "test",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "test"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "begin",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "begin"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(begin-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "ner": "O",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "begin",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "begin"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(test-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "test",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "test"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "test"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "begin"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "test."
+                ]
+              }
+            },
+            "sentence": "I begin the test."
+          },
+          "jazzyState": {
+            "text": "I begin the test.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I am the king,",
+      "wordCount": 4,
+      "order": 26,
+      "sentenceCount": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I am the king,",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "tense": [
+            "Present"
+          ],
+          "nlpState": {
+            "sentence": "I am the king,",
+            "coreAnnotations": [
+              {
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "pos": "VBP",
+                "text": "am",
+                "net": "O"
+              },
+              {
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "pos": "NN",
+                "text": "king",
+                "net": "O"
+              },
+              {
+                "pos": ",",
+                "text": ",",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, king-4)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "king",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "king"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(king-4, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "ner": "O",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "king",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "king"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "aux",
+                  "string": "cop(king-4, am-2)",
+                  "name": "copula",
+                  "tag": "cop"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "be",
+                  "ner": "O",
+                  "tag": "VBP",
+                  "word": "am"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "king",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "king"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(king-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "ner": "O",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "king",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "king"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(king-4, ,-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ",",
+                  "ner": "O",
+                  "tag": ",",
+                  "word": ","
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "king",
+                  "ner": "O",
+                  "tag": "NN",
+                  "word": "king"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "king"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "COMMA": ","
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "am"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "sentence": "I am the king,"
+          },
+          "jazzyState": {
+            "text": "I am the king,",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    }
+  ]
+}

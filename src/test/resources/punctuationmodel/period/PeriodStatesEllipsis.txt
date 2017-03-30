@@ -1,0 +1,17 @@
+last Ellipsis...
+last Ellipsis....
+last ELLIPSIS...
+last ellipsis...
+Ellipsis... notlast
+ELLIPSIS... notlast
+ellipsis... notlast
+last ELLIPSIS...ELLIPSIS...Ellipsis...ELLIPSIS!
+last ...Ellipsis?
+last Ellipsis...ELLIPSIS
+last Ellipsis...Ellipsis.
+...Ellipsis notlast
+...Ellipsis... notlast
+last ...Ellipsis.
+...ELLIPSIS notlast
+last ...ELLIPSIS.
+...ellipsis notlast

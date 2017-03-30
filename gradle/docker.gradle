@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.bmuschko:gradle-docker-plugin:2.6.8'
+    }
+}
+
+apply plugin: 'com.bmuschko.docker-remote-api'
+
+
+import com.bmuschko.gradle.docker.tasks.image.Dockerfile
+import com.bmuschko.gradle.docker.tasks.image.DockerBuildImage
+
+
+docker {
+    url = 'unix:///var/run/docker.sock'
+}
+
+
+task getElastic(type: Dockerfile) {
+    destFile = project.file('build/elasticsearch/Dockerfile')
+    from 'elasticsearch:2.3'
+
+}
+
+task buildElastic(type: DockerBuildImage) {
+    dependsOn getElastic
+    inputDir = getElastic.destFile.parentFile
+    tag = 'kalab/wordsum'
+}
+
+task createElastic(type: DockerCreateContainer) {
+    dependsOn buildElastic
+    targetImageId { buildElastic.getImageId() }
+}
+
+task startElastic(type: DockerStartContainer) {
+    dependsOn createElastic
+    targetContainerId { createElastic.getContainerId() }
+}
+
+task stopElastic(type: DockerStopContainer) {
+    targetContainerId { createElastic.getContainerId() }
+}

@@ -1,0 +1,5545 @@
+{
+  "file": "/home/kalab/github/wordsum-java/src/test/resources/sentencemodel/ComplexPresentSentences.txt",
+  "version": "0.9.0",
+  "gitSha": "51952dbc2fdddaee32ebf0740364be16a9cdebc9",
+  "localDateTime": "2016-08-18T05:10:30.590",
+  "writers": [
+    "Kalab J. Oster"
+  ],
+  "editors": [
+    "Kaleb Oster"
+  ],
+  "publishers": [
+    "Word Prostitute"
+  ],
+  "fileState": "I sat on chair after we arrive here to stand.\n\nI sat on chair although we arrive here to stand.\n\nI sat on chair as we arrive here.\n\nI sat on chair because we arrive here.\n\nI sat on chair before we arrive here.\n\nI sat on chair even though we arrive here.\n\nI sat on chair if we arrive here.\n\nI sat on chair since we arrive here.\n\nI sat on chair though we arrive here.\n\nI sat on chair unless we arrive here.\n\nI sat on chair until we arrive here.\n\nI sat on chair when we arrive here.\n\nI sat on chair whenever we arrive here.\n\nI sat on chair whereas we arrive here.\n\nI sat on chair wherever we arrive here.\n\nI sat on chair while we arrive here.\n\n",
+  "wordCount": 133,
+  "paragraphStates": [
+    {
+      "paragraph": "I sat on chair after we arrive here to stand.",
+      "wordCount": 10,
+      "order": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair after we arrive here to stand.",
+          "wordCount": 10,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair after we arrive here to stand.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "after",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "TO",
+                "text": "to",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VB",
+                "text": "stand",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-11)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "11",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, after-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "after",
+                  "tag": "IN",
+                  "word": "after"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "comp",
+                  "string": "xcomp(arrive-7, stand-10)",
+                  "name": "xclausal complement",
+                  "tag": "xcomp"
+                },
+                "dep": {
+                  "index": "10",
+                  "lemma": "stand",
+                  "tag": "VB",
+                  "word": "stand"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(stand-10, to-9)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": "to",
+                  "tag": "TO",
+                  "word": "to"
+                },
+                "gov": {
+                  "index": "10",
+                  "lemma": "stand",
+                  "tag": "VB",
+                  "word": "stand"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "after"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_2_node_0_node": {
+                  "TO": "to"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_node_1_node_1_node_2_node_1_node": {
+                  "VB": "stand"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_2_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_1_node_2_node_1_node_1_node_2_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "stand."
+                ]
+              }
+            },
+            "sentence": "I sat on chair after we arrive here to stand."
+          },
+          "jazzyState": {
+            "text": "I sat on chair after we arrive here to stand.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair although we arrive here to stand.",
+      "wordCount": 10,
+      "order": 2,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair although we arrive here to stand.",
+          "wordCount": 10,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair although we arrive here to stand.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "although",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "TO",
+                "text": "to",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VB",
+                "text": "stand",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-11)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "11",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, although-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "although",
+                  "tag": "IN",
+                  "word": "although"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "comp",
+                  "string": "xcomp(arrive-7, stand-10)",
+                  "name": "xclausal complement",
+                  "tag": "xcomp"
+                },
+                "dep": {
+                  "index": "10",
+                  "lemma": "stand",
+                  "tag": "VB",
+                  "word": "stand"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(stand-10, to-9)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": "to",
+                  "tag": "TO",
+                  "word": "to"
+                },
+                "gov": {
+                  "index": "10",
+                  "lemma": "stand",
+                  "tag": "VB",
+                  "word": "stand"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "although"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_2_node_0_node": {
+                  "TO": "to"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_node_1_node_1_node_2_node_1_node": {
+                  "VB": "stand"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_2_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_1_node_2_node_1_node_1_node_2_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "stand."
+                ]
+              }
+            },
+            "sentence": "I sat on chair although we arrive here to stand."
+          },
+          "jazzyState": {
+            "text": "I sat on chair although we arrive here to stand.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair as we arrive here.",
+      "wordCount": 8,
+      "order": 3,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair as we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair as we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "as",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, as-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "as",
+                  "tag": "IN",
+                  "word": "as"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "as"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair as we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair as we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair because we arrive here.",
+      "wordCount": 8,
+      "order": 4,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair because we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair because we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "because",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, because-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "because",
+                  "tag": "IN",
+                  "word": "because"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "because"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair because we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair because we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair before we arrive here.",
+      "wordCount": 8,
+      "order": 5,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair before we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair before we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "before",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, before-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "before",
+                  "tag": "IN",
+                  "word": "before"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "before"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair before we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair before we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair even though we arrive here.",
+      "wordCount": 9,
+      "order": 6,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair even though we arrive here.",
+          "wordCount": 9,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair even though we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "even",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "though",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-8)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-10)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "10",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-8, even-5)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "even",
+                  "tag": "RB",
+                  "word": "even"
+                },
+                "gov": {
+                  "index": "8",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-8, though-6)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "though",
+                  "tag": "IN",
+                  "word": "though"
+                },
+                "gov": {
+                  "index": "8",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-8, we-7)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "8",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-8, here-9)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "8",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "RB": "even"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_2_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_2_node_2_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_2_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_2_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_2_node_2_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_node_1_node": {
+                  "IN": "though"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_2_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_2_node_1_node_0_node": {
+                  "VBP": "arrive"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair even though we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair even though we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair if we arrive here.",
+      "wordCount": 8,
+      "order": 7,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair if we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair if we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "if",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, if-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "if",
+                  "tag": "IN",
+                  "word": "if"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "if"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair if we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair if we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair since we arrive here.",
+      "wordCount": 8,
+      "order": 8,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair since we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair since we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "since",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, since-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "since",
+                  "tag": "IN",
+                  "word": "since"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "since"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair since we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair since we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair though we arrive here.",
+      "wordCount": 8,
+      "order": 9,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair though we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair though we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "though",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, though-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "though",
+                  "tag": "IN",
+                  "word": "though"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "though"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair though we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair though we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair unless we arrive here.",
+      "wordCount": 8,
+      "order": 10,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair unless we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair unless we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "unless",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, unless-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "unless",
+                  "tag": "IN",
+                  "word": "unless"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "unless"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair unless we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair unless we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair until we arrive here.",
+      "wordCount": 8,
+      "order": 11,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair until we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair until we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "until",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, until-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "until",
+                  "tag": "IN",
+                  "word": "until"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "until"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair until we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair until we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair when we arrive here.",
+      "wordCount": 8,
+      "order": 12,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair when we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair when we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "WRB",
+                "text": "when",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, when-5)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "when",
+                  "tag": "WRB",
+                  "word": "when"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "WRB": "when"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_0_leaf": {
+                  "phrase": "WHADVP"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair when we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair when we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair whenever we arrive here.",
+      "wordCount": 8,
+      "order": 13,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair whenever we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair whenever we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "WRB",
+                "text": "whenever",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, whenever-5)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "whenever",
+                  "tag": "WRB",
+                  "word": "whenever"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "WRB": "whenever"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_0_leaf": {
+                  "phrase": "WHADVP"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair whenever we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair whenever we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair whereas we arrive here.",
+      "wordCount": 8,
+      "order": 14,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair whereas we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair whereas we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "whereas",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, whereas-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "whereas",
+                  "tag": "IN",
+                  "word": "whereas"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "whereas"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair whereas we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair whereas we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair wherever we arrive here.",
+      "wordCount": 8,
+      "order": 15,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair wherever we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair wherever we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "WRB",
+                "text": "wherever",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, wherever-5)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "wherever",
+                  "tag": "WRB",
+                  "word": "wherever"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "WRB": "wherever"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_0_leaf": {
+                  "phrase": "WHADVP"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair wherever we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair wherever we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I sat on chair while we arrive here.",
+      "wordCount": 8,
+      "order": 16,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on chair while we arrive here.",
+          "wordCount": 8,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on chair while we arrive here.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "chair",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "while",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "we",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "arrive",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "RB",
+                "text": "here",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, chair-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advcl(sat-2, arrive-7)",
+                  "name": "adverbial clause modifier",
+                  "tag": "advcl"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(chair-4, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "chair",
+                  "tag": "NN",
+                  "word": "chair"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "mark(arrive-7, while-5)",
+                  "name": "marker",
+                  "tag": "mark"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "while",
+                  "tag": "IN",
+                  "word": "while"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(arrive-7, we-6)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "we",
+                  "tag": "PRP",
+                  "word": "we"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(arrive-7, here-8)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "here",
+                  "tag": "RB",
+                  "word": "here"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "arrive",
+                  "tag": "VBP",
+                  "word": "arrive"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "while"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "chair"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "RB": "here"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "arrive"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "here."
+                ]
+              }
+            },
+            "sentence": "I sat on chair while we arrive here."
+          },
+          "jazzyState": {
+            "text": "I sat on chair while we arrive here.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    }
+  ]
+}

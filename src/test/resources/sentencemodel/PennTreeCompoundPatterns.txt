@@ -1,0 +1,1155 @@
+#################################################################
+I ran the track for I love running.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "for"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "track"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "VBG": "running"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBP": "love"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "ran"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+#################################################################
+I spin circles yet I stand over you.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_2_node_1_leaf": {
+                  "phrase": "PRT"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_3_node": {
+                  "PERIOD": "."
+                },
+                "s_node_2_node_1_node": {
+                  "RP": "over"
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_0_node": {
+                  "VBP": "stand"
+                },
+                "s_node_0_node_1_node_2_node": {
+                  "RB": "yet"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_2_node": {
+                  "PRP": "you"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_1_node": {
+                  "NNS": "circles"
+                },
+                "s_node_2_node_2_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_1_node_2_leaf": {
+                  "phrase": "ADVP"
+                },
+                "s_node_2_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VB": "spin"
+                }
+              }
+            }
+
+#################################################################
+I hunger for dinner so I cook steak.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "so"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "dinner"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "NN": "steak"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VB": "cook"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "hunger"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "for"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+#################################################################
+I sleep at night and I work during the day.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_node_1_node_1_node_0_node": {
+                  "IN": "at"
+                },
+                "s_node_2_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_2_node_1_node_0_node": {
+                  "VBP": "work"
+                },
+                "s_node_2_node_1_node_1_node_0_node": {
+                  "IN": "during"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_3_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_2_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_0_node_1_node_1_node_1_node": {
+                  "NN": "night"
+                },
+                "s_node_0_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_1_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node": {
+                  "CC": "and"
+                },
+                "s_node_2_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VBP": "sleep"
+                },
+                "s_node_2_node_1_node_1_node_1_node_1_node": {
+                  "NN": "day"
+                }
+              }
+            }
+#################################################################
+I lost war nor we won the war.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_2_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_2_node_1_node_0_node": {
+                  "VBD": "won"
+                },
+                "s_node_2_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_3_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_2_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_1_node_1_node_1_node": {
+                  "NN": "war"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node": {
+                  "CC": "nor"
+                },
+                "s_node_0_node_1_node_1_node": {
+                  "NN": "war"
+                },
+                "s_node_2_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VBD": "lost"
+                }
+              }
+            }
+
+
+
+#################################################################
+I fly the sky but I sink in water.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_2_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_2_node_1_node_0_node": {
+                  "VB": "sink"
+                },
+                "s_node_2_node_1_node_1_node_0_node": {
+                  "IN": "in"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_3_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_2_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_0_node_1_node_1_node_1_node": {
+                  "NN": "sky"
+                },
+                "s_node_2_node_1_node_1_node_1_node": {
+                  "NN": "water"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node": {
+                  "CC": "but"
+                },
+                "s_node_2_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VBP": "fly"
+                }
+              }
+            }
+
+
+
+
+
+#################################################################
+I shit in toilet or I pee in toilet.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_node_1_node_1_node_0_node": {
+                  "IN": "in"
+                },
+                "s_node_2_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_2_node_1_node_0_node": {
+                  "VB": "pee"
+                },
+                "s_node_2_node_1_node_1_node_0_node": {
+                  "IN": "in"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_3_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_2_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_0_node_1_node_1_node_1_node": {
+                  "NN": "toilet"
+                },
+                "s_node_2_node_1_node_1_node_1_node": {
+                  "NN": "toilet"
+                },
+                "s_node_0_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node": {
+                  "CC": "or"
+                },
+                "s_node_2_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VBP": "shit"
+                }
+              }
+            }
+#################################################################
+I walk sidewalk as Bob walks stairs.
+#################################################################
+ "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "as"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "NN": "sidewalk"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "NNP": "Bob"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "NNS": "stairs"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBZ": "walks"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "walk"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+
+#################################################################
+I walk sidewalk while Bob walks stairs.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "IN": "while"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "NN": "sidewalk"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "NNP": "Bob"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_1_node_1_node": {
+                  "NNS": "stairs"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBZ": "walks"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "walk"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+
+#################################################################
+I ran the track, for I love running.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_3_node_0_node": {
+                  "IN": "for"
+                },
+                "s_node_1_node_3_node_1_node_1_node_1_node": {
+                  "VBG": "running"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_3_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_3_node_1_node_1_node_0_node": {
+                  "VBP": "love"
+                },
+                "s_node_1_node_3_node_1_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_3_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_2_node": {
+                  "COMMA": ","
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "track"
+                },
+                "s_node_1_node_3_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "ran"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_3_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_3_node_1_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+#################################################################
+I spin circles, yet I stand over you.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_3_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_3_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_0_node": {
+                  "VBP": "stand"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "CC": "yet"
+                },
+                "s_node_3_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_3_node_1_node_1_node": {
+                  "RP": "over"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_1_leaf": {
+                  "phrase": "PRT"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_4_node": {
+                  "PERIOD": "."
+                },
+                "s_node_3_node_1_node_2_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_3_node_1_node_2_node": {
+                  "PRP": "you"
+                },
+                "s_node_0_node_1_node_1_node": {
+                  "NNS": "circles"
+                },
+                "s_node_3_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VB": "spin"
+                }
+              }
+            }
+#################################################################
+I hunger for dinner, so I cook steak.
+#################################################################
+ "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_3_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_1_node_1_node_0_node": {
+                  "IN": "for"
+                },
+                "s_node_3_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_0_node": {
+                  "VB": "cook"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "IN": "so"
+                },
+                "s_node_3_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_3_node_1_node_1_node": {
+                  "NN": "steak"
+                },
+                "s_node_0_node_1_node_1_node_1_node": {
+                  "NN": "dinner"
+                },
+                "s_node_0_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_4_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_3_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VBZ": "hunger"
+                }
+              }
+            }
+#################################################################
+I sleep at night, and I work during the day.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_3_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_3_node_1_node_1_node_1_node_1_node": {
+                  "NN": "day"
+                },
+                "s_node_0_node_1_node_1_node_0_node": {
+                  "IN": "at"
+                },
+                "s_node_3_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_0_node": {
+                  "VBP": "work"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "CC": "and"
+                },
+                "s_node_3_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_1_node_1_node": {
+                  "NN": "night"
+                },
+                "s_node_0_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_3_node_1_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_4_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_3_node_1_node_1_node_0_node": {
+                  "IN": "during"
+                },
+                "s_node_3_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_3_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VBP": "sleep"
+                }
+              }
+            }
+
+#################################################################
+I lost war, nor we won the war.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_3_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_3_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_0_node": {
+                  "VBD": "won"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "CC": "nor"
+                },
+                "s_node_3_node_1_node_1_node_1_node": {
+                  "NN": "war"
+                },
+                "s_node_3_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_4_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_0_node_1_node_1_node": {
+                  "NN": "war"
+                },
+                "s_node_3_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_3_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VBD": "lost"
+                }
+              }
+            }
+#################################################################
+I fly the sky, but we sink in water.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_3_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_3_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_0_node": {
+                  "VB": "sink"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "CC": "but"
+                },
+                "s_node_3_node_1_node_1_node_1_node": {
+                  "NN": "water"
+                },
+                "s_node_3_node_0_node": {
+                  "PRP": "we"
+                },
+                "s_node_0_node_1_node_1_node_1_node": {
+                  "NN": "sky"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_4_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_3_node_1_node_1_node_0_node": {
+                  "IN": "in"
+                },
+                "s_node_3_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_3_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VBP": "fly"
+                }
+              }
+            }
+
+
+#################################################################
+I shit in toilet, or you pee in toilet.
+#################################################################
+ "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_3_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_1_node_1_node_0_node": {
+                  "IN": "in"
+                },
+                "s_node_3_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_0_node": {
+                  "VB": "pee"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "CC": "or"
+                },
+                "s_node_3_node_1_node_1_node_1_node": {
+                  "NN": "toilet"
+                },
+                "s_node_3_node_0_node": {
+                  "PRP": "you"
+                },
+                "s_node_0_node_1_node_1_node_1_node": {
+                  "NN": "toilet"
+                },
+                "s_node_0_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_3_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_0_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_4_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_3_node_1_node_1_node_0_node": {
+                  "IN": "in"
+                },
+                "s_node_3_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_3_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_0_node_1_node_0_node": {
+                  "VBP": "shit"
+                }
+              }
+            }
+#################################################################
+I walk sidewalk, as Bob walks stairs.
+#################################################################
+"pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_2_node_1_node_1_node_1_node": {
+                  "NNS": "stairs"
+                },
+                "s_node_1_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBZ": "walks"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_2_node_1_node_0_node": {
+                  "NNP": "Bob"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_1_node_1_node_2_node_0_node": {
+                  "IN": "as"
+                },
+                "s_node_1_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "walk"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "NN": "sidewalk"
+                },
+                "s_node_1_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+
+
+
+
+
+#################################################################
+I walk sidewalk, while Bob walks stairs.
+#################################################################
+ "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_2_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_2_node_1_node_1_node_1_node": {
+                  "NNS": "stairs"
+                },
+                "s_node_1_node_1_node_2_node_1_node_1_node_0_node": {
+                  "VBZ": "walks"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_2_node_1_node_0_node": {
+                  "NNP": "Bob"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_1_node_1_node_2_node_0_node": {
+                  "IN": "while"
+                },
+                "s_node_1_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_2_leaf": {
+                  "phrase": "SBAR"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "walk"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "NN": "sidewalk"
+                },
+                "s_node_1_node_1_node_2_node_1_leaf": {
+                  "phrase": "S"
+                },
+                "s_node_1_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+
+
+
+#################################################################
+

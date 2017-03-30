@@ -1,0 +1,52 @@
+repositories {
+    mavenCentral()
+
+}
+
+dependencies {
+
+    compile group: 'org.bytedeco', name: 'javacv', version: '1.2'
+    compile group: 'org.bytedeco.javacpp-presets', name: 'opencv', version: '3.0.0-1.1', classifier: 'android-arm'
+    compile group: 'org.bytedeco.javacpp-presets', name: 'ffmpeg', version: '2.8.1-1.1', classifier: 'android-arm'
+
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.10'
+
+    compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.6.0'
+    compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.6.0', classifier: 'models'
+    compile group: 'edu.stanford.nlp', name: 'stanford-parser', version: '3.6.0'
+    //compile group: 'edu.stanford.nlp', name: 'stanford-kbp', version: '1.0.0'
+    compile group: 'org.apache.commons', name: 'commons-io', version: '1.3.2'
+    compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.1'
+
+    compile group: 'net.sf.extjwnl', name: 'extjwnl', version: '1.8.0'
+    compile group: 'net.sf.extjwnl', name: 'extjwnl-data-wn31', version: '1.2'
+    compile group: 'net.sf.jazzy', name: 'jazzy', version: '0.5.2-rtext-1.4.1'
+
+    compile group: 'org.apache.commons', name: 'commons-math3', version: '3.2'
+
+    compile group: 'org.apache.commons', name: 'commons-collections4', version:'4.0'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version:'2.6.3'
+    compile group: 'org.json', name: 'json', version: '20160212'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.3.1'
+
+    compile group: 'org.elasticsearch', name: 'elasticsearch', version: '2.3.1'
+    compile group: 'org.apache.hadoop', name: 'hadoop-common', version: '2.7.3'
+    compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.0.0'
+
+    compile group: 'com.cyc', name: 'cyc-core-api', version:'1.0.0-rc5'
+    runtime group: 'com.cyc', name: 'cyc-core-client-impl', version:'1.0.0-rc5'
+
+    compile group: 'org.deeplearning4j', name: 'deeplearning4j-nlp', version: '0.6.0'
+    compile group: 'org.deeplearning4j', name: 'deeplearning4j-ui', version: '0.6.0'
+
+    compile group: 'org.nd4j', name: 'nd4j-native-platform', version: '0.6.0'
+    compile group: 'org.bytedeco', name: 'javacpp', version: '1.2.4'
+    compile group: 'org.datavec', name: 'datavec-api', version: '0.4.0'
+
+    compile group: 'org.beykery', name: 'neuroph', version: '2.92'
+
+    testCompile group: 'org.testng', name: 'testng', version: '6.8.8'
+
+
+}
