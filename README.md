@@ -5,47 +5,48 @@
 wordsum-java is a tool that currently only outputs the wordsum-model's Text Model.
 
 
-### The model
+### The models
 
-Examples and definition of the model can be found in the https://github.com/wordsum/wordsum-models
+Examples and definition of the Text Models can be found in the https://github.com/wordsum/wordsum-models
 
+Story Model is under current development.
 
 ### Source
 
 This repository contains the java version of wordsum 0.0.99. This is alpha now that it's no longer meta.
 
-The code is raw. It began as objects building object models then it became static methods building objects. It began trying to learn a language while trying to learn NLP. Then it became that language didn't matter and the only thing NLP does is help model text, so wordsum can model a story for a machine.
+The code is raw. It began as objects building object models then it became static methods building object models. It began trying to learn a language while learning NLP. Then it became that language didn't matter and the only thing NLP does is help model text, so wordsum can model a story for a machine.
 
-The code of wordsum is far from perfect if it were a location. There are embarrassing parts that need editing and rewriting yet again. However, the text model is in the state, so a story can be modelled like character, plot, setting, and the development team is small, so we are putting efforts to model a story.
+The code of wordsum is far from perfect if it were a location. There are embarrassing parts that need editing and rewriting yet again. However, the text model is in a state, so a story can be modelled like character, plot, setting. And the development team is small, so we are putting efforts to model a story.
 
 The code is open sourced and released to the world, so it will encourage the creators to fix it else be embarrassed even if no other human or entity with agency ever reads it.
 
 
 ### Requirements
 
-Time and focus as well Java 8 and access to the library dependencies. Gradle is required if you want to use gradle build.gradle, and the gradle has worked on at least one machine.
+Time and focus as well Java 8 and access to the library dependencies. Gradle is required if you want to use the build.gradle. The build.gradle has worked on at least one machine.
 
 
 ### build, test, deploy
 
-The build, text and deploy pipe line doesn't exists because it has yet to help model a story.
+The build, text and deploy pipeline doesn't exists because it has yet to help model a story.
 
 The build.gradle is a good start. It has worked on one machine.
 
 
 ### The Most Embarrassing Parts of wordsum-java:
 
-1. NlpState should be refactored to use json output features likely in Stanford Core NLP 3.7.0.. The NlpState and its builders exist this state because a naive writer of NLP and Java wrote code to perform Extraction, Translation and Load of the string output of the Constituency tree and Dependency tree because a serializable  model in Stanford Core NLP 3.6.X was not found.
+1. NlpState should be refactored to use json output features likely in Stanford Core NLP 3.7.0.. The NlpState and its builders exist in this state because a naive writer of NLP and Java wrote code to perform Extraction, Translation and Load of the string output of the Constituency tree and Dependency tree because a serializable  model in Stanford Core NLP 3.6.X was not found.
 
-2. wordsum hasn't been upgraded to Stanford NLP 3.7.0 as it has a breaking change to current version of wordsum-java and right now a story with what is outputted with 3.6.X. that current team of developer can handle.
+2. The PunctuationState and the definition of tense in the Sentence Model need rework and testing. They are implemented, so one can later come back and fix the states as they will need to work for the Story Model to be.
 
-3. The PunctuationState and TenseState in the TextModel needs rework and testing, but implemented enough, so one can later come back and fix the states as they will be needed for the Story Model.
+3. The state builders are mixed classes of static and non-static methods building objects because of a naive writer decided it liked static methods after it started coding because to it static methods offered a separation of concern and has not found time to make all the methods static.
 
-4. The state builders are mixed classes of static and non-static methods building objects because of a naive writer decided it liked static methods because to it static methods offered a separation concern and has not found time to make all the methods static.
+4. It's current regular expressions for parsing dialog only parse Word Prostitute&reg; Dialog Mark&trade;. It wouldn't be too much work to add American English standard double quotes to dialog state for parsing, but the current developer team doesn't have the time as it models a story with the Text Model.
 
-5. It's current regular expressions for parsing dialog only parse Word Prostitute(R) Dialog Mark(TM). It wouldn't be too much to add American English standard double quotes but the current developer team doesn't have the time as it models a story with the text model.
+5. wordsum hasn't been upgraded to Stanford Core NLP 3.7.0 as Stanford Core NLP 3.7.0 has a breaking change to current version of wordsum-java.
 
-6. The current models are generated by executing a test method in the test classes.
+6. The current models are generated by executing test methods in the test classes.
 
 7. etc...
 
@@ -63,7 +64,4 @@ The build.gradle is a good start. It has worked on one machine.
   **copyright &copy; 2017 Kalab J. Oster&trade;**
 
   Permission is granted by the Copyright Holders for humans or other intelligent agents to read, write, edit, publish and critique the Story if the humans or intelligent agents keep this Open Story License with the Story, and if another writer writes or edits the Story then the writer's name needs to be appended to the end of the Writer list of this Open Story License, and if the Story you tell remains free.
-
-
-
 
