@@ -1,0 +1,783 @@
+{
+  "file": "/home/kalab/github/wordsum-java/src/test/resources/sentencemodel/Fragments.txt",
+  "version": "0.9.0",
+  "gitSha": "51952dbc2fdddaee32ebf0740364be16a9cdebc9",
+  "localDateTime": "2016-08-18T05:10:30.590",
+  "writers": [
+    "Kalab J. Oster"
+  ],
+  "editors": [
+    "Kaleb Oster"
+  ],
+  "publishers": [
+    "Word Prostitute"
+  ],
+  "fileState": "Run.\n\nI.\n\nRuns on rock.\n\nTeacher, Mr.\n\nRock the.\n\nIts time.\n\n",
+  "wordCount": 11,
+  "paragraphStates": [
+    {
+      "paragraph": "Run.",
+      "wordCount": 1,
+      "order": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Run.",
+          "wordCount": 1,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Run.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "NNP",
+                "text": "Run",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, Run-1)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Run",
+                  "tag": "NNP",
+                  "word": "Run"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(Run-1, .-2)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "Run",
+                  "tag": "NNP",
+                  "word": "Run"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "FW": "Run"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "Run."
+                ]
+              }
+            },
+            "sentence": "Run."
+          },
+          "jazzyState": {
+            "text": "Run.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I.",
+      "wordCount": 1,
+      "order": 2,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I.",
+          "wordCount": 1,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "I.",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, I.-1)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "i.",
+                  "tag": "NN",
+                  "word": "I."
+                },
+                "gov": {
+                  "index": "0"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node": {
+                  "NNP": "I."
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "INITIAL": [
+                  "I."
+                ]
+              }
+            },
+            "sentence": "I."
+          },
+          "jazzyState": {
+            "text": "I.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Runs on rock.",
+      "wordCount": 3,
+      "order": 3,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Runs on rock.",
+          "wordCount": 3,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Runs on rock.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "Runs",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "rock",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, Runs-1)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "Runs"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(Runs-1, rock-3)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "rock",
+                  "tag": "NN",
+                  "word": "rock"
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "Runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(Runs-1, .-4)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "Runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(rock-3, on-2)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "rock",
+                  "tag": "NN",
+                  "word": "rock"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "NN": "rock"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNS": "Runs"
+                },
+                "s_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "PP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "rock."
+                ]
+              }
+            },
+            "sentence": "Runs on rock."
+          },
+          "jazzyState": {
+            "text": "Runs on rock.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Teacher, Mr.",
+      "wordCount": 2,
+      "order": 4,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Teacher, Mr.",
+          "wordCount": 2,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Teacher, Mr.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "Teacher",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ",",
+                "text": ",",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NNP",
+                "text": "Mr.",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, Teacher-1)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "teacher",
+                  "tag": "NN",
+                  "word": "Teacher"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(Teacher-1, ,-2)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": ",",
+                  "tag": ",",
+                  "word": ","
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "teacher",
+                  "tag": "NN",
+                  "word": "Teacher"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "appos(Teacher-1, Mr.-3)",
+                  "name": "appositional modifier",
+                  "tag": "appos"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "Mr.",
+                  "tag": "NNP",
+                  "word": "Mr."
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "teacher",
+                  "tag": "NN",
+                  "word": "Teacher"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "NNP": "Mr."
+                },
+                "s_node_2_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node": {
+                  "NNP": "Teacher"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "Mr."
+                ]
+              }
+            },
+            "sentence": "Teacher, Mr."
+          },
+          "jazzyState": {
+            "text": "Teacher, Mr.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Rock the.",
+      "wordCount": 2,
+      "order": 5,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Rock the.",
+          "wordCount": 2,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Rock the.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "VB",
+                "text": "Rock",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, Rock-1)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "rock",
+                  "tag": "VB",
+                  "word": "Rock"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(Rock-1, the-2)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "the",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "rock",
+                  "tag": "VB",
+                  "word": "Rock"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(Rock-1, .-3)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "rock",
+                  "tag": "VB",
+                  "word": "Rock"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node": {
+                  "NNP": "the"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "Rock"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "the."
+                ]
+              }
+            },
+            "sentence": "Rock the."
+          },
+          "jazzyState": {
+            "text": "Rock the.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Its time.",
+      "wordCount": 2,
+      "order": 6,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Its time.",
+          "wordCount": 2,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Its time.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP$",
+                "text": "Its",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "time",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, time-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "time",
+                  "tag": "NN",
+                  "word": "time"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "nmod:poss(time-2, Its-1)",
+                  "name": "possession modifier",
+                  "tag": "nmod:poss"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "its",
+                  "tag": "PRP$",
+                  "word": "Its"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "time",
+                  "tag": "NN",
+                  "word": "time"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(time-2, .-3)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "time",
+                  "tag": "NN",
+                  "word": "time"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_1_node": {
+                  "NN": "time"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP$": "Its"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "time."
+                ]
+              }
+            },
+            "sentence": "Its time."
+          },
+          "jazzyState": {
+            "text": "Its time.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    }
+  ]
+}

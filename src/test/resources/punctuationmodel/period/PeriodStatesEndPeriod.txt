@@ -1,0 +1,4 @@
+word word word endperiod.
+word word word ENDPERIOD.
+ENDPERIOD.
+endperiod.

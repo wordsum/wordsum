@@ -1,0 +1,3208 @@
+{
+  "file": "/home/kalab/github/wordsum-java/src/test/resources/sentencemodel/SimplePresentSentences.txt",
+  "version": "0.9.0",
+  "gitSha": "51952dbc2fdddaee32ebf0740364be16a9cdebc9",
+  "localDateTime": "2016-08-18T05:10:30.590",
+  "writers": [
+    "Kalab J. Oster"
+  ],
+  "editors": [
+    "Kaleb Oster"
+  ],
+  "publishers": [
+    "Word Prostitute"
+  ],
+  "fileState": "I sat on the table.\n\nSally peers at me.\n\nTom grins lips.\n\nA teacher stands by me and glares at me. The teacher folds arms. He sighs. His blinks peer. He looks.\n\nI shrug shoulders.\n\nTom, Paul and me run the track.\n\nTom runs the track and the trail.\n\nTom runs and jumps hurdles.\n\nTom and jill dance and play the game and the trial.",
+  "wordCount": 65,
+  "paragraphStates": [
+    {
+      "paragraph": "I sat on the table.",
+      "wordCount": 5,
+      "order": 1,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I sat on the table.",
+          "wordCount": 5,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I sat on the table.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBD",
+                "text": "sat",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "on",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "table",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sat-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sat-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:on(sat-2, table-5)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:on"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "table",
+                  "tag": "NN",
+                  "word": "table"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sat-2, .-6)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sit",
+                  "tag": "VBD",
+                  "word": "sat"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(table-5, on-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "on",
+                  "tag": "IN",
+                  "word": "on"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "table",
+                  "tag": "NN",
+                  "word": "table"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(table-5, the-4)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "the",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "table",
+                  "tag": "NN",
+                  "word": "table"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_1_node_1_node_1_node": {
+                  "NN": "table"
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBD": "sat"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "on"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "table."
+                ]
+              }
+            },
+            "sentence": "I sat on the table."
+          },
+          "jazzyState": {
+            "text": "I sat on the table.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Sally peers at me.",
+      "wordCount": 4,
+      "order": 2,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Sally peers at me.",
+          "wordCount": 4,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Sally peers at me.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "NNP",
+                "text": "Sally",
+                "net": "PERSON"
+              },
+              {
+                "dialog": "false",
+                "pos": "NNS",
+                "text": "peers",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "at",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "me",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, peers-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "peer",
+                  "tag": "NNS",
+                  "word": "peers"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "compound(peers-2, Sally-1)",
+                  "name": "compound modifier",
+                  "tag": "compound"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Sally",
+                  "tag": "NNP",
+                  "word": "Sally"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "peer",
+                  "tag": "NNS",
+                  "word": "peers"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:at(peers-2, me-4)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:at"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "me"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "peer",
+                  "tag": "NNS",
+                  "word": "peers"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(peers-2, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "peer",
+                  "tag": "NNS",
+                  "word": "peers"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(me-4, at-3)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "at",
+                  "tag": "IN",
+                  "word": "at"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "me"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_1_node_1_node": {
+                  "PRP": "me"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "Sally"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "peers"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "IN": "at"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "me."
+                ]
+              }
+            },
+            "sentence": "Sally peers at me."
+          },
+          "jazzyState": {
+            "text": "Sally peers at me.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Tom grins lips.",
+      "wordCount": 3,
+      "order": 3,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Tom grins lips.",
+          "wordCount": 3,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Tom grins lips.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "NNP",
+                "text": "Tom",
+                "net": "PERSON"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "grins",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NNS",
+                "text": "lips",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, grins-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "grin",
+                  "tag": "VBZ",
+                  "word": "grins"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(grins-2, Tom-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "grin",
+                  "tag": "VBZ",
+                  "word": "grins"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(grins-2, lips-3)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "lip",
+                  "tag": "NNS",
+                  "word": "lips"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "grin",
+                  "tag": "VBZ",
+                  "word": "grins"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(grins-2, .-4)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "grin",
+                  "tag": "VBZ",
+                  "word": "grins"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "NNS": "lips"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "NNP": "Tom"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "grins"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "lips."
+                ]
+              }
+            },
+            "sentence": "Tom grins lips."
+          },
+          "jazzyState": {
+            "text": "Tom grins lips.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "A teacher stands by me and glares at me. The teacher folds arms. He sighs. His blinks peer. He looks.",
+      "wordCount": 20,
+      "order": 4,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "A teacher stands by me and glares at me.",
+          "wordCount": 9,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "A teacher stands by me and glares at me.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "A",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "teacher",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "stands",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "by",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "me",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "CC",
+                "text": "and",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "glares",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "IN",
+                "text": "at",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "me",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, stands-3)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "stand",
+                  "tag": "VBZ",
+                  "word": "stands"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(teacher-2, A-1)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "a",
+                  "tag": "DT",
+                  "word": "A"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "teacher",
+                  "tag": "NN",
+                  "word": "teacher"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(stands-3, teacher-2)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "teacher",
+                  "tag": "NN",
+                  "word": "teacher"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "stand",
+                  "tag": "VBZ",
+                  "word": "stands"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:by(stands-3, me-5)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:by"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "me"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "stand",
+                  "tag": "VBZ",
+                  "word": "stands"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "cc(stands-3, and-6)",
+                  "name": "coordination",
+                  "tag": "cc"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "and",
+                  "tag": "CC",
+                  "word": "and"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "stand",
+                  "tag": "VBZ",
+                  "word": "stands"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "conj",
+                  "string": "conj:and(stands-3, glares-7)",
+                  "name": "conj_collapsed",
+                  "tag": "conj:and"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "glare",
+                  "tag": "VBZ",
+                  "word": "glares"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "stand",
+                  "tag": "VBZ",
+                  "word": "stands"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(stands-3, .-10)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "10",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "stand",
+                  "tag": "VBZ",
+                  "word": "stands"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(me-5, by-4)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "by",
+                  "tag": "IN",
+                  "word": "by"
+                },
+                "gov": {
+                  "index": "5",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "me"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(glares-7, teacher-2)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "teacher",
+                  "tag": "NN",
+                  "word": "teacher"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "glare",
+                  "tag": "VBZ",
+                  "word": "glares"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "nmod",
+                  "string": "nmod:at(glares-7, me-9)",
+                  "name": "nmod_preposition",
+                  "tag": "nmod:at"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "me"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "glare",
+                  "tag": "VBZ",
+                  "word": "glares"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "case(me-9, at-8)",
+                  "name": "case marker",
+                  "tag": "case"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "at",
+                  "tag": "IN",
+                  "word": "at"
+                },
+                "gov": {
+                  "index": "9",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "me"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "VBZ": "glares"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "CC": "and"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_1_node": {
+                  "NN": "teacher"
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_node_2_node_1_node_0_node": {
+                  "IN": "at"
+                },
+                "s_node_1_node_0_node_1_node_0_node": {
+                  "IN": "by"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_0_node_1_leaf": {
+                  "phrase": "PP"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_0_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_0_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_0_node_0_node": {
+                  "VBZ": "stands"
+                },
+                "s_node_1_node_2_node_1_node_1_node": {
+                  "PRP": "me"
+                },
+                "s_node_1_node_0_node_1_node_1_node": {
+                  "PRP": "me"
+                },
+                "s_node_0_node_0_node": {
+                  "DT": "A"
+                },
+                "s_node_1_node_2_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "me."
+                ]
+              }
+            },
+            "sentence": "A teacher stands by me and glares at me."
+          },
+          "jazzyState": {
+            "text": "A teacher stands by me and glares at me.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        },
+        {
+          "sentence": "The teacher folds arms.",
+          "wordCount": 4,
+          "orderParagraph": 2,
+          "nlpState": {
+            "sentence": "The teacher folds arms.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "The",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "teacher",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "folds",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NNS",
+                "text": "arms",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, folds-3)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "fold",
+                  "tag": "VBZ",
+                  "word": "folds"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(teacher-2, The-1)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "the",
+                  "tag": "DT",
+                  "word": "The"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "teacher",
+                  "tag": "NN",
+                  "word": "teacher"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(folds-3, teacher-2)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "teacher",
+                  "tag": "NN",
+                  "word": "teacher"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "fold",
+                  "tag": "VBZ",
+                  "word": "folds"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(folds-3, arms-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "arm",
+                  "tag": "NNS",
+                  "word": "arms"
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "fold",
+                  "tag": "VBZ",
+                  "word": "folds"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(folds-3, .-5)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "3",
+                  "lemma": "fold",
+                  "tag": "VBZ",
+                  "word": "folds"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "NNS": "arms"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_1_node": {
+                  "NN": "teacher"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "folds"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_0_node": {
+                  "DT": "The"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "arms."
+                ]
+              }
+            },
+            "sentence": "The teacher folds arms."
+          },
+          "jazzyState": {
+            "text": "The teacher folds arms.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        },
+        {
+          "sentence": "He sighs.",
+          "wordCount": 2,
+          "orderParagraph": 3,
+          "nlpState": {
+            "sentence": "He sighs.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "He",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "sighs",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, sighs-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "sigh",
+                  "tag": "VBZ",
+                  "word": "sighs"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(sighs-2, He-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "he",
+                  "tag": "PRP",
+                  "word": "He"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sigh",
+                  "tag": "VBZ",
+                  "word": "sighs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(sighs-2, .-3)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "sigh",
+                  "tag": "VBZ",
+                  "word": "sighs"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node": {
+                  "VBZ": "sighs"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "He"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "sighs."
+                ]
+              }
+            },
+            "sentence": "He sighs."
+          },
+          "jazzyState": {
+            "text": "He sighs.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        },
+        {
+          "sentence": "His blinks peer.",
+          "wordCount": 3,
+          "orderParagraph": 4,
+          "nlpState": {
+            "sentence": "His blinks peer.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP$",
+                "text": "His",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "blinks",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VB",
+                "text": "peer",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, blinks-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "blink",
+                  "tag": "VBZ",
+                  "word": "blinks"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(blinks-2, His-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "he",
+                  "tag": "PRP$",
+                  "word": "His"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "blink",
+                  "tag": "VBZ",
+                  "word": "blinks"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "comp",
+                  "string": "xcomp(blinks-2, peer-3)",
+                  "name": "xclausal complement",
+                  "tag": "xcomp"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "peer",
+                  "tag": "VB",
+                  "word": "peer"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "blink",
+                  "tag": "VBZ",
+                  "word": "blinks"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(blinks-2, .-4)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "blink",
+                  "tag": "VBZ",
+                  "word": "blinks"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node": {
+                  "VBP": "peer"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_1_node": {
+                  "NNS": "blinks"
+                },
+                "s_node_0_node_0_node": {
+                  "PRP$": "His"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "peer."
+                ]
+              }
+            },
+            "sentence": "His blinks peer."
+          },
+          "jazzyState": {
+            "text": "His blinks peer.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        },
+        {
+          "sentence": "He looks.",
+          "wordCount": 2,
+          "orderParagraph": 5,
+          "nlpState": {
+            "sentence": "He looks.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "He",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "looks",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, looks-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "look",
+                  "tag": "VBZ",
+                  "word": "looks"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(looks-2, He-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "he",
+                  "tag": "PRP",
+                  "word": "He"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "look",
+                  "tag": "VBZ",
+                  "word": "looks"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(looks-2, .-3)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "look",
+                  "tag": "VBZ",
+                  "word": "looks"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node": {
+                  "VBZ": "looks"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "He"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "looks."
+                ]
+              }
+            },
+            "sentence": "He looks."
+          },
+          "jazzyState": {
+            "text": "He looks.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "I shrug shoulders.",
+      "wordCount": 3,
+      "order": 5,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "I shrug shoulders.",
+          "wordCount": 3,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "I shrug shoulders.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "I",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "shrug",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NNS",
+                "text": "shoulders",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, shrug-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "shrug",
+                  "tag": "VBP",
+                  "word": "shrug"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(shrug-2, I-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "I"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "shrug",
+                  "tag": "VBP",
+                  "word": "shrug"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(shrug-2, shoulders-3)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "shoulder",
+                  "tag": "NNS",
+                  "word": "shoulders"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "shrug",
+                  "tag": "VBP",
+                  "word": "shrug"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(shrug-2, .-4)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "shrug",
+                  "tag": "VBP",
+                  "word": "shrug"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "NNS": "shoulders"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node": {
+                  "PRP": "I"
+                },
+                "s_node_1_node_0_node": {
+                  "VBG": "shrug"
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "shoulders."
+                ]
+              }
+            },
+            "sentence": "I shrug shoulders."
+          },
+          "jazzyState": {
+            "text": "I shrug shoulders.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Tom, Paul and me run the track.",
+      "wordCount": 7,
+      "order": 6,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Tom, Paul and me run the track.",
+          "wordCount": 7,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Tom, Paul and me run the track.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "NNP",
+                "text": "Tom",
+                "net": "PERSON"
+              },
+              {
+                "dialog": "false",
+                "pos": ",",
+                "text": ",",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NNP",
+                "text": "Paul",
+                "net": "PERSON"
+              },
+              {
+                "dialog": "false",
+                "pos": "CC",
+                "text": "and",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "PRP",
+                "text": "me",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBP",
+                "text": "run",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "track",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, run-6)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "run",
+                  "tag": "VBP",
+                  "word": "run"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(Tom-1, ,-2)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": ",",
+                  "tag": ",",
+                  "word": ","
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "conj",
+                  "string": "conj:and(Tom-1, Paul-3)",
+                  "name": "conj_collapsed",
+                  "tag": "conj:and"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "Paul",
+                  "tag": "NNP",
+                  "word": "Paul"
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "cc(Tom-1, and-4)",
+                  "name": "coordination",
+                  "tag": "cc"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "and",
+                  "tag": "CC",
+                  "word": "and"
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "conj",
+                  "string": "conj:and(Tom-1, me-5)",
+                  "name": "conj_collapsed",
+                  "tag": "conj:and"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "me"
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(run-6, Tom-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "run",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(run-6, Paul-3)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "Paul",
+                  "tag": "NNP",
+                  "word": "Paul"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "run",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(run-6, me-5)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "I",
+                  "tag": "PRP",
+                  "word": "me"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "run",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(run-6, track-8)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "track",
+                  "tag": "NN",
+                  "word": "track"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "run",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(run-6, .-9)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "run",
+                  "tag": "VBP",
+                  "word": "run"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(track-8, the-7)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "the",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "8",
+                  "lemma": "track",
+                  "tag": "NN",
+                  "word": "track"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_3_node": {
+                  "CC": "and"
+                },
+                "s_node_0_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_4_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_1_node": {
+                  "COMMA": ","
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node_4_node": {
+                  "PRP": "me"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node_2_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "NN": "track"
+                },
+                "s_node_0_node_2_node": {
+                  "NNP": "Paul"
+                },
+                "s_node_1_node_0_node": {
+                  "VBP": "run"
+                },
+                "s_node_1_node_1_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_0_node_0_node": {
+                  "NNP": "Tom"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "track."
+                ]
+              }
+            },
+            "sentence": "Tom, Paul and me run the track."
+          },
+          "jazzyState": {
+            "text": "Tom, Paul and me run the track.",
+            "misspelledWords": {
+              "Paul": [
+                "pal",
+                "pail",
+                "pall",
+                "haul"
+              ]
+            }
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Tom runs the track and the trail.",
+      "wordCount": 7,
+      "order": 7,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Tom runs the track and the trail.",
+          "wordCount": 7,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Tom runs the track and the trail.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "NNP",
+                "text": "Tom",
+                "net": "PERSON"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "runs",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "track",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "CC",
+                "text": "and",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "trail",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, runs-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(runs-2, Tom-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(runs-2, track-4)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "track",
+                  "tag": "NN",
+                  "word": "track"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(runs-2, trail-7)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "trail",
+                  "tag": "NN",
+                  "word": "trail"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(runs-2, .-8)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(track-4, the-3)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "the",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "track",
+                  "tag": "NN",
+                  "word": "track"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "cc(track-4, and-5)",
+                  "name": "coordination",
+                  "tag": "cc"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "and",
+                  "tag": "CC",
+                  "word": "and"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "track",
+                  "tag": "NN",
+                  "word": "track"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "conj",
+                  "string": "conj:and(track-4, trail-7)",
+                  "name": "conj_collapsed",
+                  "tag": "conj:and"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "trail",
+                  "tag": "NN",
+                  "word": "trail"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "track",
+                  "tag": "NN",
+                  "word": "track"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(trail-7, the-6)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "the",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "7",
+                  "lemma": "trail",
+                  "tag": "NN",
+                  "word": "trail"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_1_node_1_node": {
+                  "CC": "and"
+                },
+                "s_node_1_node_1_node_0_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_node_2_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_1_node_2_node_1_node": {
+                  "NN": "trail"
+                },
+                "s_node_1_node_1_node_2_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node": {
+                  "NNP": "Tom"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "runs"
+                },
+                "s_node_1_node_1_node_0_node_1_node": {
+                  "NN": "track"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "trail."
+                ]
+              }
+            },
+            "sentence": "Tom runs the track and the trail."
+          },
+          "jazzyState": {
+            "text": "Tom runs the track and the trail.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Tom runs and jumps hurdles.",
+      "wordCount": 5,
+      "order": 8,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Tom runs and jumps hurdles.",
+          "wordCount": 5,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Tom runs and jumps hurdles.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "NNP",
+                "text": "Tom",
+                "net": "PERSON"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "runs",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "CC",
+                "text": "and",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VBZ",
+                "text": "jumps",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NNS",
+                "text": "hurdles",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, runs-2)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(runs-2, Tom-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "cc(runs-2, and-3)",
+                  "name": "coordination",
+                  "tag": "cc"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "and",
+                  "tag": "CC",
+                  "word": "and"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "conj",
+                  "string": "conj:and(runs-2, jumps-4)",
+                  "name": "conj_collapsed",
+                  "tag": "conj:and"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "jump",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(runs-2, hurdles-5)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "hurdle",
+                  "tag": "NNS",
+                  "word": "hurdles"
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(runs-2, .-6)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "2",
+                  "lemma": "run",
+                  "tag": "VBZ",
+                  "word": "runs"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(jumps-4, Tom-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "jump",
+                  "tag": "VBZ",
+                  "word": "jumps"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node": {
+                  "VBZ": "jumps"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "CC": "and"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_1_node_3_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_node": {
+                  "NNP": "Tom"
+                },
+                "s_node_1_node_0_node": {
+                  "VBZ": "runs"
+                },
+                "s_node_1_node_3_node": {
+                  "NNS": "hurdles"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "hurdles."
+                ]
+              }
+            },
+            "sentence": "Tom runs and jumps hurdles."
+          },
+          "jazzyState": {
+            "text": "Tom runs and jumps hurdles.",
+            "misspelledWords": {}
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    },
+    {
+      "paragraph": "Tom and jill dance and play the game and the trial.",
+      "wordCount": 11,
+      "order": 9,
+      "dialog": false,
+      "sentenceStates": [
+        {
+          "sentence": "Tom and jill dance and play the game and the trial.",
+          "wordCount": 11,
+          "orderParagraph": 1,
+          "nlpState": {
+            "sentence": "Tom and jill dance and play the game and the trial.",
+            "coreAnnotations": [
+              {
+                "dialog": "false",
+                "pos": "NNP",
+                "text": "Tom",
+                "net": "PERSON"
+              },
+              {
+                "dialog": "false",
+                "pos": "CC",
+                "text": "and",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "jill",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "dance",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "CC",
+                "text": "and",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "VB",
+                "text": "play",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "game",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "CC",
+                "text": "and",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "DT",
+                "text": "the",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": "NN",
+                "text": "trial",
+                "net": "O"
+              },
+              {
+                "dialog": "false",
+                "pos": ".",
+                "text": ".",
+                "net": "O"
+              }
+            ],
+            "typedDependency": [
+              {
+                "reln": {
+                  "string": "root(ROOT-0, play-6)",
+                  "name": "root",
+                  "tag": "root"
+                },
+                "dep": {
+                  "index": "6",
+                  "lemma": "play",
+                  "tag": "VB",
+                  "word": "play"
+                },
+                "gov": {
+                  "index": "0"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "cc(Tom-1, and-2)",
+                  "name": "coordination",
+                  "tag": "cc"
+                },
+                "dep": {
+                  "index": "2",
+                  "lemma": "and",
+                  "tag": "CC",
+                  "word": "and"
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "conj",
+                  "string": "conj:and(Tom-1, dance-4)",
+                  "name": "conj_collapsed",
+                  "tag": "conj:and"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "dance",
+                  "tag": "NN",
+                  "word": "dance"
+                },
+                "gov": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "compound(dance-4, jill-3)",
+                  "name": "compound modifier",
+                  "tag": "compound"
+                },
+                "dep": {
+                  "index": "3",
+                  "lemma": "jill",
+                  "tag": "NN",
+                  "word": "jill"
+                },
+                "gov": {
+                  "index": "4",
+                  "lemma": "dance",
+                  "tag": "NN",
+                  "word": "dance"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(play-6, Tom-1)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "1",
+                  "lemma": "Tom",
+                  "tag": "NNP",
+                  "word": "Tom"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "play",
+                  "tag": "VB",
+                  "word": "play"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "subj",
+                  "string": "nsubj(play-6, dance-4)",
+                  "name": "nominal subject",
+                  "tag": "nsubj"
+                },
+                "dep": {
+                  "index": "4",
+                  "lemma": "dance",
+                  "tag": "NN",
+                  "word": "dance"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "play",
+                  "tag": "VB",
+                  "word": "play"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "advmod(play-6, and-5)",
+                  "name": "adverbial modifier",
+                  "tag": "advmod"
+                },
+                "dep": {
+                  "index": "5",
+                  "lemma": "and",
+                  "tag": "CC",
+                  "word": "and"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "play",
+                  "tag": "VB",
+                  "word": "play"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(play-6, game-8)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "8",
+                  "lemma": "game",
+                  "tag": "NN",
+                  "word": "game"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "play",
+                  "tag": "VB",
+                  "word": "play"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "obj",
+                  "string": "dobj(play-6, trial-11)",
+                  "name": "direct object",
+                  "tag": "dobj"
+                },
+                "dep": {
+                  "index": "11",
+                  "lemma": "trial",
+                  "tag": "NN",
+                  "word": "trial"
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "play",
+                  "tag": "VB",
+                  "word": "play"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "punct(play-6, .-12)",
+                  "name": "punctuation",
+                  "tag": "punct"
+                },
+                "dep": {
+                  "index": "12",
+                  "lemma": ".",
+                  "tag": ".",
+                  "word": "."
+                },
+                "gov": {
+                  "index": "6",
+                  "lemma": "play",
+                  "tag": "VB",
+                  "word": "play"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(game-8, the-7)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "7",
+                  "lemma": "the",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "8",
+                  "lemma": "game",
+                  "tag": "NN",
+                  "word": "game"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "dep",
+                  "string": "cc(game-8, and-9)",
+                  "name": "coordination",
+                  "tag": "cc"
+                },
+                "dep": {
+                  "index": "9",
+                  "lemma": "and",
+                  "tag": "CC",
+                  "word": "and"
+                },
+                "gov": {
+                  "index": "8",
+                  "lemma": "game",
+                  "tag": "NN",
+                  "word": "game"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "conj",
+                  "string": "conj:and(game-8, trial-11)",
+                  "name": "conj_collapsed",
+                  "tag": "conj:and"
+                },
+                "dep": {
+                  "index": "11",
+                  "lemma": "trial",
+                  "tag": "NN",
+                  "word": "trial"
+                },
+                "gov": {
+                  "index": "8",
+                  "lemma": "game",
+                  "tag": "NN",
+                  "word": "game"
+                }
+              },
+              {
+                "reln": {
+                  "parent": "mod",
+                  "string": "det(trial-11, the-10)",
+                  "name": "determiner",
+                  "tag": "det"
+                },
+                "dep": {
+                  "index": "10",
+                  "lemma": "the",
+                  "tag": "DT",
+                  "word": "the"
+                },
+                "gov": {
+                  "index": "11",
+                  "lemma": "trial",
+                  "tag": "NN",
+                  "word": "trial"
+                }
+              }
+            ],
+            "pennTreebankState": {
+              "treeBranchesMap": {
+                "s_node_1_node_2_node_0_node": {
+                  "VB": "play"
+                },
+                "s_node_1_node_2_node_1_node_2_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_1_node": {
+                  "CC": "and"
+                },
+                "s_node_2_node": {
+                  "PERIOD": "."
+                },
+                "s_node_0_node_1_node": {
+                  "CC": "and"
+                },
+                "s_node_1_node_2_node_1_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_leaf": {
+                  "phrase": "NP"
+                },
+                "s_node_1_node_2_node_1_node_0_node_1_node": {
+                  "NN": "game"
+                },
+                "s_node_1_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_2_node_1_node_2_node_1_node": {
+                  "NN": "trial"
+                },
+                "s_node_1_node_2_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_0_node_2_node": {
+                  "NNP": "jill"
+                },
+                "s_node_1_node_0_leaf": {
+                  "phrase": "VP"
+                },
+                "s_node_1_node_2_node_1_node_0_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_2_node_1_node_1_node": {
+                  "CC": "and"
+                },
+                "s_node_1_node_2_node_1_node_2_node_0_node": {
+                  "DT": "the"
+                },
+                "s_node_1_node_0_node": {
+                  "VB": "dance"
+                },
+                "s_node_0_node_0_node": {
+                  "NNP": "Tom"
+                }
+              }
+            }
+          },
+          "punctuationState": {
+            "periodState": {
+              "periodStates": {
+                "INITIAL": "([A-Z]\\.)+[\\.]{0,1}",
+                "ELLIPSIS": "([A-Za-z]*\\.\\.\\.[A-Za-z]*)+[\\\\.|\\\\!|\\\\?]{0,1}",
+                "MARK": ".",
+                "PERIOD": "[a-zA-Z0-9]+\\.$"
+              },
+              "patterns": {
+                "PERIOD": [
+                  "trial."
+                ]
+              }
+            },
+            "sentence": "Tom and jill dance and play the game and the trial."
+          },
+          "jazzyState": {
+            "text": "Tom and jill dance and play the game and the trial.",
+            "misspelledWords": {
+              "jill": [
+                "Jill",
+                "ill",
+                "mill",
+                "bill",
+                "pill",
+                "sill",
+                "fill",
+                "rill",
+                "hill",
+                "gill",
+                "kill",
+                "till",
+                "will"
+              ]
+            }
+          },
+          "dialogState": {
+            "dialog": false,
+            "dialogBegin": false,
+            "dialogEnd": false,
+            "dialogContinue": false
+          },
+          "completeSentence": false
+        }
+      ]
+    }
+  ]
+}

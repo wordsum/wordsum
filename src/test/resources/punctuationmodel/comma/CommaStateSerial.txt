@@ -1,0 +1,4 @@
+Serial one, two and three.
+Serial one, two or thee.
+Serial one, two, three or four and maybe five near the end.
+Serial more then one, two or three near middle not end.
