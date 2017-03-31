@@ -38,11 +38,11 @@ The build.gradle is a good start. It has worked on one machine.
 
 1. NlpState should be refactored to use json output features likely in Stanford Core NLP 3.7.0.. The NlpState and its builders exist in this state because a naive writer of NLP and Java wrote code to perform Extraction, Translation and Load of the string output of the Constituency tree and Dependency tree because a serializable  model in Stanford Core NLP 3.6.X was not found.
 
-2. The PunctuationState and the definition of tense in the Sentence Model need rework and testing. They are implemented, so one can later come back and fix the states as they will need to work for the Story Model to be.
+2. The PunctuationState and the definition of tense in the SentenceState need rework and testing. They are implemented, so one can later come back and fix the states as they will need to work for the Story Model to be.
 
-3. The state builders are mixed classes of static and non-static methods building objects because of a naive writer decided it liked static methods after it started coding because to it static methods offered a separation of concern and has not found time to make all the methods static.
+3. The state builders are mixed classes of static and non-static methods building object models because of a naive writer decided it liked static methods after it started coding because to it static methods offered a separation of concern and has not found time to make all the methods static.
 
-4. It's current regular expressions for parsing dialog only parse Word Prostitute&reg; Dialog Mark&trade;. It wouldn't be too much work to add American English standard double quotes to dialog state for parsing, but the current developer team doesn't have the time as it models a story with the Text Model.
+4. It's current regular expressions for parsing dialog only parse Word Prostitute&reg; Dialog Mark&trade;. It wouldn't be too much work to add American English standard double quotes to dialog state for parsing, but the current developer team doesn't have the time as it models a story with the Text Model of https://github.com/wordsum/wordsum-models.
 
 5. wordsum hasn't been upgraded to Stanford Core NLP 3.7.0 as Stanford Core NLP 3.7.0 has a breaking change to current version of wordsum-java.
 
@@ -63,5 +63,5 @@ The build.gradle is a good start. It has worked on one machine.
 
   **copyright &copy; 2017 Kalab J. Oster&trade;**
 
-  Permission is granted by the Copyright Holders for humans or other intelligent agents to read, write, edit, publish and critique the Story if the humans or intelligent agents keep this Open Story License with the Story, and if another writer writes or edits the Story then the writer's name needs to be appended to the end of the Writer list of this Open Story License, and if the Story you tell remains free.
+  Permission is granted by the Copyright Holders for humans or other intelligent agents to read, write, edit, publish and critique the Story if the humans or intelligent agents keep this Open Story License with the Story, , and if the Story you tell remains free, and if another writer writes or edits the Story then the writer's name needs to be appended to the end of the Writer list of this Open Story License.
 
