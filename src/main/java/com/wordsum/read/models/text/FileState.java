@@ -1,6 +1,7 @@
 package com.wordsum.read.models.text;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Open Story License
@@ -26,9 +27,9 @@ public class FileState {
     private List<String> writers;
     private List<String> editors;
     private List<String> publishers;
-
     private String fileState;
     private Integer wordCount;
+    private Map<String, Map<String, List<Float>>> wordVectors;
     private List<ParagraphState> paragraphStates;
 
     public String getFile() {
@@ -109,6 +110,14 @@ public class FileState {
 
     public void setWordCount(Integer wordCount) {
         this.wordCount = wordCount;
+    }
+
+    public Map<String, Map<String, List<Float>>> getWordVectors() {
+        return wordVectors;
+    }
+
+    public void setWordVectors(Map<String, Map<String, List<Float>>> wordVectors) {
+        this.wordVectors = wordVectors;
     }
 
     public List<ParagraphState> getParagraphStates() {
