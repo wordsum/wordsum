@@ -1,0 +1,4653 @@
+{
+  "file": "/gitbox/Word/Prostitute/Product/Goods/Tools/wordsum/Baba_Yaga_Sneak_Attack.txt",
+  "paragraphStates": [
+    {
+      "order": 1,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Me brooder! "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Me brooder! "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "We can kill the linnorm Fafnheir. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "We can kill the linnorm Fafnheir. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "We can unite the Linnorm Kings. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "We can unite the Linnorm Kings. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "And we can fight Baba Yaga from the lands of our people"
+            },
+            {
+              "type": "NARRATIVE",
+              "order": 2,
+              "text": ",\" says Soarin Unterson. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "And we can fight Baba Yaga from the lands of our people"
+                },
+                {
+                  "type": "NARRATIVE",
+                  "order": 2,
+                  "text": ",\" says Soarin Unterson. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He throws muscled arm around his stout younger brother, Vlag Unterson, and says"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"But only if we don\u0027t fight each other and we don\u0027t get harassed by the Gendarmes.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He throws muscled arm around his stout younger brother, Vlag Unterson, and says"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"But only if we don\u0027t fight each other and we don\u0027t get harassed by the Gendarmes.\""
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"But only if we don\u0027t fight each other and we don\u0027t get harassed by the Gendarmes.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag says"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"And get into Riddleport to work!\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag says"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"And get into Riddleport to work!\" "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"And get into Riddleport to work!\" "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin squeezes Vlag."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin squeezes Vlag."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The brothers round the third bend of Calphiak Pass and see a hundred feet away Gendarmes near a wood shack and fire guarding the entrance and haze of Riddleport. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The brothers round the third bend of Calphiak Pass and see a hundred feet away Gendarmes near a wood shack and fire guarding the entrance and haze of Riddleport. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Riddleport is nestled between two steep ridges of the Calphiak Mountains and united by the riddles of greed, magic and Overlord Gaston Cromarcky."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Riddleport is nestled between two steep ridges of the Calphiak Mountains and united by the riddles of greed, magic and Overlord Gaston Cromarcky."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "A riddle for newcomers to Riddleport is its law. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "A riddle for newcomers to Riddleport is its law. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "One answer to the riddle is pay the Overlord Gaston Cromarcky."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "One answer to the riddle is pay the Overlord Gaston Cromarcky."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NONE",
+              "order": 1,
+              "text": "The other answer to the riddle is befriend the Gendarmes: the mercenaries, extortionists and bribe collectors of Gaston. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NONE",
+                  "order": 1,
+                  "text": "The other answer to the riddle is befriend the Gendarmes: the mercenaries, extortionists and bribe collectors of Gaston. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": " Gendarmes trip many merchants and many pirates with their law and their guisarme. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": " Gendarmes trip many merchants and many pirates with their law and their guisarme. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Gendarmes enforce their law with the blade of a guisarme. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Gendarmes enforce their law with the blade of a guisarme. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NONE",
+              "order": 1,
+              "text": "Their law is Riddleport\u0027s law: pay."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NONE",
+                  "order": 1,
+                  "text": "Their law is Riddleport\u0027s law: pay."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The Unterson brothers\u0027s first riddle of Riddleport is how to make it through Calphiak Pass into Riddleport without paying the Gendarmes."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The Unterson brothers\u0027s first riddle of Riddleport is how to make it through Calphiak Pass into Riddleport without paying the Gendarmes."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "As the brothers step closer to the Gendarmes and Riddleport, they leave their family a half-day\u0027s longboat row to the coastal south."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "As the brothers step closer to the Gendarmes and Riddleport, they leave their family a half-day\u0027s longboat row to the coastal south."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin and Vlag longboated from Unter Village over the waters of Varisa Bay during the morning after dad said"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"Soarin, you are too big to feed. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin and Vlag longboated from Unter Village over the waters of Varisa Bay during the morning after dad said"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Soarin, you are too big to feed. "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Soarin, you are too big to feed. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "And Vlag, you are too wild to tame. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "And Vlag, you are too wild to tame. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "Both Baba Yaga Sneak Attack each other much.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "Both Baba Yaga Sneak Attack each other much.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Both Soarin and Vlag knew it was time to make room for the new baby and the other six siblings. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Both Soarin and Vlag knew it was time to make room for the new baby and the other six siblings. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "And Grandmother said it was"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"The Time.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "And Grandmother said it was"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"The Time.\" "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"The Time.\" "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The brothers packed rope, blankets, flint and steel, fish hooks and net, canvas sheets, waterskins and dried fish. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The brothers packed rope, blankets, flint and steel, fish hooks and net, canvas sheets, waterskins and dried fish. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "They stuffed coins in pockets. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "They stuffed coins in pockets. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag pulled leather armor over hide pants and shirt. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag pulled leather armor over hide pants and shirt. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He hit spear against shield while Soarin dressed his bear skin fur over hide pants and jacket. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He hit spear against shield while Soarin dressed his bear skin fur over hide pants and jacket. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin swung heavy mace, said. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin swung heavy mace, said. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"We journey.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"We journey.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "They rowed from Unter Village to Riddleport on the longboat with father. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "They rowed from Unter Village to Riddleport on the longboat with father. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin and Vlag felt excited fear not knowing if they\u0027d see their clan again. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin and Vlag felt excited fear not knowing if they\u0027d see their clan again. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag knew they weren\u0027t selling fish, and Soarin\u0027s loins stirred at the tales of Riddleport\u0027s ladies. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag knew they weren\u0027t selling fish, and Soarin\u0027s loins stirred at the tales of Riddleport\u0027s ladies. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The longboat beached the rough shore outside Riddleport to avoid fees and bribes and cast-off the brothers to earn their own way in the world."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The longboat beached the rough shore outside Riddleport to avoid fees and bribes and cast-off the brothers to earn their own way in the world."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Father said"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"Don\u0027t Baba Yaga Sneak Attack your brooder in Riddleport. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Father said"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Don\u0027t Baba Yaga Sneak Attack your brooder in Riddleport. "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Don\u0027t Baba Yaga Sneak Attack your brooder in Riddleport. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "Gives Gendarmes reason to take coin or beat you.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "Gives Gendarmes reason to take coin or beat you.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Yes, faughter"
+            },
+            {
+              "type": "NARRATIVE",
+              "order": 2,
+              "text": ",\" said Vlag."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Yes, faughter"
+                },
+                {
+                  "type": "NARRATIVE",
+                  "order": 2,
+                  "text": ",\" said Vlag."
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Yes, faughter"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Father said"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"May you come back on a Red Sunset.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Father said"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"May you come back on a Red Sunset.\" "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"May you come back on a Red Sunset.\" "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin and Vlag walked the shore from the boat to the trees and a one-wagon road North. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin and Vlag walked the shore from the boat to the trees and a one-wagon road North. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "They walked through Shoanti territory to the two-wagon road West to Riddleport. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "They walked through Shoanti territory to the two-wagon road West to Riddleport. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The brothers walk Calphiak Pass."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The brothers walk Calphiak Pass."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin shouts"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"UUUUUUUUUUUUUUNNNNNNNNNNNNNNNTERSON!\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin shouts"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"UUUUUUUUUUUUUUNNNNNNNNNNNNNNNTERSON!\" "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"UUUUUUUUUUUUUUNNNNNNNNNNNNNNNTERSON!\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The pass echoes"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"...SON...Son...son.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The pass echoes"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"...SON...Son...son.\""
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"...SON...Son...son.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Along Calphiak Pass before it opens to the smoke haze of Riddleport, a few Gendarmes pull their blood red cloaks over shoulders. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Along Calphiak Pass before it opens to the smoke haze of Riddleport, a few Gendarmes pull their blood red cloaks over shoulders. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "They look through smoldering peat smoke, rub their hands, swat large mosquitoes and look at the approaching Unterson brothers. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "They look through smoldering peat smoke, rub their hands, swat large mosquitoes and look at the approaching Unterson brothers. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "A bearded Gendarme points tip of a guisarme at the brothers and talks too distant to be heard by the brothers."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "A bearded Gendarme points tip of a guisarme at the brothers and talks too distant to be heard by the brothers."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin Unterson says"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"Me brooder, we going to make you a man. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin Unterson says"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Me brooder, we going to make you a man. "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Me brooder, we going to make you a man. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "Oh yeah?\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "Oh yeah?\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "His muscled arm squeezes Vlag\u0027s skinny but sturdy body. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "His muscled arm squeezes Vlag\u0027s skinny but sturdy body. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Oh yeah, me brooder.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Oh yeah, me brooder.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag\u0027s strong body feels the strength of Soarin, but not the pain of Soarin\u0027s squeeze. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag\u0027s strong body feels the strength of Soarin, but not the pain of Soarin\u0027s squeeze. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag laughs. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag laughs. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Brooder, you hug like child.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Brooder, you hug like child.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He pushes from Soarin as Soarin releases squeeze. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He pushes from Soarin as Soarin releases squeeze. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin spreads arms through humidity showing his tattoos. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin spreads arms through humidity showing his tattoos. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"You may not be the baby, but you\u0027ve not pillaged a woman with your spear, so she can show you how to use it to be a man.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"You may not be the baby, but you\u0027ve not pillaged a woman with your spear, so she can show you how to use it to be a man.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag pounds forearm against chest and thick leather armor. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag pounds forearm against chest and thick leather armor. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"I\u0027m a man. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"I\u0027m a man. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "I know how to use my spear.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "I know how to use my spear.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He smiles and nods. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He smiles and nods. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Brooder, you were playing with ladies and gramooder while I worked the boat with faughter.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Brooder, you were playing with ladies and gramooder while I worked the boat with faughter.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin grins. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin grins. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Oh yeah, brooder, I was playing with the ladies while you played with faughter.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Oh yeah, brooder, I was playing with the ladies while you played with faughter.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He strokes his blond beard. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He strokes his blond beard. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"He make you a man with your spear?\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"He make you a man with your spear?\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He reaches and rubs the stubble on Vlag\u0027s cheek. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He reaches and rubs the stubble on Vlag\u0027s cheek. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"You grow a beard.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"You grow a beard.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag pushes Soarin\u0027s arm and leans back and raises a fist."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag pushes Soarin\u0027s arm and leans back and raises a fist."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "They glare at each other then chuckle."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "They glare at each other then chuckle."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The gust blows the blood red cloaks of the Gendarmes starring through pungent peat smoke at the brothers."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The gust blows the blood red cloaks of the Gendarmes starring through pungent peat smoke at the brothers."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin says"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"It\u0027s just us brooders. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin says"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"It\u0027s just us brooders. "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"It\u0027s just us brooders. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "No ladies. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "No ladies. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "No faughter.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "No faughter.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He flexes muscles and whips long braided locks of blond hair over shoulders. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He flexes muscles and whips long braided locks of blond hair over shoulders. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He steps along road closer to the Gendarmes."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He steps along road closer to the Gendarmes."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin\u0027s hair is woven with beads given to him by his grandma, the spiritual leader of the clan. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin\u0027s hair is woven with beads given to him by his grandma, the spiritual leader of the clan. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin\u0027s spiritual strength was felt since birth. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin\u0027s spiritual strength was felt since birth. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin learned from grandma the spirit ways and life\u0027s paths. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin learned from grandma the spirit ways and life\u0027s paths. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Grandma showed Soarin how to reach to Untersons of Time Past for guidance and healing. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Grandma showed Soarin how to reach to Untersons of Time Past for guidance and healing. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "His body\u0027s strength came from father and from wrestling his brother. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "His body\u0027s strength came from father and from wrestling his brother. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "His spiritual strength came from grandma and the tattoos."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "His spiritual strength came from grandma and the tattoos."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 30,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Grandma told arcane stories while she tattooed Soarin\u0027s skin. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Grandma told arcane stories while she tattooed Soarin\u0027s skin. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "She told stories of olden days when the fish brought word of the arcane to the shores of Thessalon. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "She told stories of olden days when the fish brought word of the arcane to the shores of Thessalon. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "She recounted tales of seafarers listening to the fish and learning great power from the fish. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "She recounted tales of seafarers listening to the fish and learning great power from the fish. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "She taught Soarin the great power of potions for fish need liquid while scribing the tales on his skin."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "She taught Soarin the great power of potions for fish need liquid while scribing the tales on his skin."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 31,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag teases his older and bigger brother about Soarin being able to cook a potion in the kitchen, but not fish over a campfire."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag teases his older and bigger brother about Soarin being able to cook a potion in the kitchen, but not fish over a campfire."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 32,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NONE",
+              "order": 1,
+              "text": "Vlag learned to make a campfire from father after father pushed Vlag from the fishing boat into the icy ocean and shouted \"BABA YAGA SNEAK ATTACK!\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NONE",
+                  "order": 1,
+                  "text": "Vlag learned to make a campfire from father after father pushed Vlag from the fishing boat into the icy ocean and shouted \"BABA YAGA SNEAK ATTACK!\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Then father showed Vlag how to build a fire. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Then father showed Vlag how to build a fire. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 33,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "As Vlag dried by fire, father told Vlag stories of their Linnorm ancestors fighting Baba Yaga from Hagsreach in the Land of Linnorm Kings. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "As Vlag dried by fire, father told Vlag stories of their Linnorm ancestors fighting Baba Yaga from Hagsreach in the Land of Linnorm Kings. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Once dry, Vlag would try to Baba Yaga Sneak Attack Soarin using quickness and surprise to battle Soarin\u0027s strength."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Once dry, Vlag would try to Baba Yaga Sneak Attack Soarin using quickness and surprise to battle Soarin\u0027s strength."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 34,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag became tough from getting beat by Soarin, rowing boats and hauling fishing nets since he was twelve. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag became tough from getting beat by Soarin, rowing boats and hauling fishing nets since he was twelve. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He became quick by dodging his father\u0027s Baba Yaga Sneak Attacks. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He became quick by dodging his father\u0027s Baba Yaga Sneak Attacks. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "After seven winters fishing, Vlag is not as strong as Soarin, but he can take a beating if he\u0027s caught."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "After seven winters fishing, Vlag is not as strong as Soarin, but he can take a beating if he\u0027s caught."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 35,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "In the shadows of Calphiak Pass, Vlag says"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"Brooder.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "In the shadows of Calphiak Pass, Vlag says"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Brooder.\" "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Brooder.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He steps with Soarin. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He steps with Soarin. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Riddleport\u0027s dire seawolves attack those alone on the docks.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Riddleport\u0027s dire seawolves attack those alone on the docks.\" "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 36,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin lowers spread arms and hangs hand by heavy mace. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin lowers spread arms and hangs hand by heavy mace. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Well, me brooder. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Well, me brooder. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "If we don\u0027t fight and stay as one then we won\u0027t be alone.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "If we don\u0027t fight and stay as one then we won\u0027t be alone.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He slaps Vlag\u0027s back. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He slaps Vlag\u0027s back. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"We make you a man. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"We make you a man. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "I won\u0027t be fighting with a boy!\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "I won\u0027t be fighting with a boy!\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 37,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag sneers. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag sneers. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Yeah, Brooder.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Yeah, Brooder.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag raises spear and stabs space before him. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag raises spear and stabs space before him. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NONE",
+              "order": 1,
+              "text": " \"Have you, Brooder?\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NONE",
+                  "order": 1,
+                  "text": " \"Have you, Brooder?\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 38,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Oh yeah.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Oh yeah.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin shakes his pouch. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin shakes his pouch. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"We drink. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"We drink. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "We eat. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "We eat. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "We get you a tiefling to pillage. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "We get you a tiefling to pillage. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "We find jobs. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "We find jobs. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "We become kings!\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "We become kings!\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 39,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag spits. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag spits. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Tiefling is like Baba Yaga witch spawn.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Tiefling is like Baba Yaga witch spawn.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag lifts spear and shouts. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag lifts spear and shouts. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"I WON\u0027T STICK MY SPEAR IN A TIEFLING!\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"I WON\u0027T STICK MY SPEAR IN A TIEFLING!\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 40,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag\u0027s voice echoes through Calphiak Pass to the distant clanks, thumps and laughter of Riddleport that sounds like whispers to the shout of Vlag."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag\u0027s voice echoes through Calphiak Pass to the distant clanks, thumps and laughter of Riddleport that sounds like whispers to the shout of Vlag."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 41,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "By the wood shack, eight Gendarmes throw back blood red cloaks and grip guisarmes. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "By the wood shack, eight Gendarmes throw back blood red cloaks and grip guisarmes. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The bearded Gendarmes by wood shack points arm and finger at the brothers."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The bearded Gendarmes by wood shack points arm and finger at the brothers."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 42,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Me brooder"
+            },
+            {
+              "type": "NARRATIVE",
+              "order": 2,
+              "text": ",\" says Soarin as he slams forearm against his chest."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Me brooder"
+                },
+                {
+                  "type": "NARRATIVE",
+                  "order": 2,
+                  "text": ",\" says Soarin as he slams forearm against his chest."
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Me brooder"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 43,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Their feet stomp gravel filled wagon ruts."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Their feet stomp gravel filled wagon ruts."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 44,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The humid breeze blows the Gas Works\u0027 smoke and trash rot fumes from Riddleport through the pass to the Eastern plains."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The humid breeze blows the Gas Works\u0027 smoke and trash rot fumes from Riddleport through the pass to the Eastern plains."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 45,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "As the bothers walk, four Gendarmes guards fall in behind the them."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "As the bothers walk, four Gendarmes guards fall in behind the them."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 46,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag grips spear, and Soarin lays hand on heavy mace handle. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag grips spear, and Soarin lays hand on heavy mace handle. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "They walk with the four Gendarmes following close behind."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "They walk with the four Gendarmes following close behind."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 47,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Faughter can\u0027t guard us, brooder"
+            },
+            {
+              "type": "NARRATIVE",
+              "order": 2,
+              "text": ",\" says Soarin. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Faughter can\u0027t guard us, brooder"
+                },
+                {
+                  "type": "NARRATIVE",
+                  "order": 2,
+                  "text": ",\" says Soarin. "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Faughter can\u0027t guard us, brooder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"We follow Varisia and her land. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"We follow Varisia and her land. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "We guard each other. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "We guard each other. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "Not fight each other.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "Not fight each other.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 48,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Varisia...\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Varisia...\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "says Vlag. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "says Vlag. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "His head hangs as he looks from the dirt to Soarin. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "His head hangs as he looks from the dirt to Soarin. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"What we do, brooder?\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"What we do, brooder?\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 49,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin shrugs. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin shrugs. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Bounty hunters.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Bounty hunters.\" "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 50,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag shrugs. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag shrugs. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"No, not me.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"No, not me.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "After a few steps Vlag says"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"We work a boat.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "After a few steps Vlag says"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"We work a boat.\""
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"We work a boat.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 51,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin strokes beard. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin strokes beard. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Not working on a boat unless we got no money. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Not working on a boat unless we got no money. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "And I work with me brooder.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "And I work with me brooder.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He swings arm around Vlag."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He swings arm around Vlag."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 52,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag shrugs-off Soarin\u0027s arm and steps from Soarin."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag shrugs-off Soarin\u0027s arm and steps from Soarin."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 53,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Oh yeah"
+            },
+            {
+              "type": "NARRATIVE",
+              "order": 2,
+              "text": ",\" says Soarin. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Oh yeah"
+                },
+                {
+                  "type": "NARRATIVE",
+                  "order": 2,
+                  "text": ",\" says Soarin. "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Oh yeah"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Be that way.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Be that way.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 54,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag clenches fist. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag clenches fist. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"We need to work.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"We need to work.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 55,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The brothers step near the Gendarmes\u0027 wood shack and Calphiak Pass\u0027s end in the haze of Riddleport."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The brothers step near the Gendarmes\u0027 wood shack and Calphiak Pass\u0027s end in the haze of Riddleport."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 56,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Now six Gendarmes stand before the brothers and four are behind."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Now six Gendarmes stand before the brothers and four are behind."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 57,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin says"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"We be body guards. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin says"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"We be body guards. "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"We be body guards. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NONE",
+              "order": 1,
+              "text": "Or we fight in Zincher’s Arena. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NONE",
+                  "order": 1,
+                  "text": "Or we fight in Zincher’s Arena. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "Or be Gendarmes.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "Or be Gendarmes.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 58,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag chuckles. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag chuckles. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"It\u0027s Vancaskerkin Arena now.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"It\u0027s Vancaskerkin Arena now.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 59,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin says"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"You hear that from faughter?\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin says"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"You hear that from faughter?\""
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"You hear that from faughter?\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 60,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag nods."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag nods."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 61,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin grins"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"Gramooder says never believe what you hear about Riddleport.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin grins"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Gramooder says never believe what you hear about Riddleport.\""
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"Gramooder says never believe what you hear about Riddleport.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 62,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag shoves Soarin, and Soarin stands as Vlag says"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"You fight. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag shoves Soarin, and Soarin stands as Vlag says"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"You fight. "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"You fight. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "I work on a boat.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "I work on a boat.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 63,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin shouts"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"We fight! "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin shouts"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"We fight! "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"We fight! "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "I\u0027ll talk. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "I\u0027ll talk. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "We go. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "We go. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "Make me brooder a man.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "Make me brooder a man.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 64,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"A man"
+            },
+            {
+              "type": "NARRATIVE",
+              "order": 2,
+              "text": ",\" says Vlag."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"A man"
+                },
+                {
+                  "type": "NARRATIVE",
+                  "order": 2,
+                  "text": ",\" says Vlag."
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"A man"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 65,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Oh yeah.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Oh yeah.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin says and smiles. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin says and smiles. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"You pillage a tiefling with your spear.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"You pillage a tiefling with your spear.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin swats at Vlag\u0027s crotch."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin swats at Vlag\u0027s crotch."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 66,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag shouts"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"I\u0027M A MAN!\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag shouts"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"I\u0027M A MAN!\" "
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"I\u0027M A MAN!\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "He raises fist and spear."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "He raises fist and spear."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 67,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin shouts through the mountain pass. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin shouts through the mountain pass. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"WE FALL TOGETHER. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"WE FALL TOGETHER. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "THE UUUUNTERSONS.\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "THE UUUUNTERSONS.\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "As shout echoes, Soarin nudges Vlag\u0027s shoulder. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "As shout echoes, Soarin nudges Vlag\u0027s shoulder. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"WE FIGHT!\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"WE FIGHT!\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 68,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"DROP YOUR WEAPONS!\" "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"DROP YOUR WEAPONS!\" "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "shouts the bearded Gendarme. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "shouts the bearded Gendarme. "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 69,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Gendarmes near the wood shack and campfire grip guisarmes and step to the brothers. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Gendarmes near the wood shack and campfire grip guisarmes and step to the brothers. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "The Gendarmes behind the brothers ready their guisarmes."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "The Gendarmes behind the brothers ready their guisarmes."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 70,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag sneers at Soarin, lowers fist."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag sneers at Soarin, lowers fist."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 71,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Soarin nudges Vlag\u0027s shoulder. "
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Soarin nudges Vlag\u0027s shoulder. "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "fragments": [
+            {
+              "type": "DIALOG",
+              "order": 1,
+              "text": "\"Or we go home, and you can pillage faughter with your spear.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 1,
+                  "text": "\"Or we go home, and you can pillage faughter with your spear.\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 72,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "Vlag drops spear, punches at Soarin\u0027s face and shouts"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"BABA YAGA SNEAK ATTACK!\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "Vlag drops spear, punches at Soarin\u0027s face and shouts"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"BABA YAGA SNEAK ATTACK!\""
+                }
+              ]
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"BABA YAGA SNEAK ATTACK!\""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
