@@ -1,0 +1,960 @@
+{
+  "file": "/gitbox/Word/Prostitute/Product/Goods/Tools/wordsum/out/test/resources/narratives.txt",
+  "paragraphStates": [
+    {
+      "order": 1,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "I wrote and said"
+            },
+            {
+              "type": "DIALOG",
+              "order": 2,
+              "text": ", \"This is dialog written for a test.\""
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "I wrote and said"
+                },
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"This is dialog written for a test.\""
+                }
+              ],
+              "nlpState": {
+                "sentences": [
+                  {
+                    "index": 0,
+                    "parse": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VP (VBD wrote))\n      (CC and)\n      (VP (VBD said)\n        (NP (NNP DIALOGOBJECT))))))",
+                    "basicDependencies": [
+                      {
+                        "dep": "ROOT",
+                        "governor": 0,
+                        "governorGloss": "ROOT",
+                        "dependent": 2,
+                        "dependentGloss": "wrote",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 2,
+                        "governorGloss": "wrote",
+                        "dependent": 1,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "cc",
+                        "governor": 2,
+                        "governorGloss": "wrote",
+                        "dependent": 3,
+                        "dependentGloss": "and",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "conj",
+                        "governor": 2,
+                        "governorGloss": "wrote",
+                        "dependent": 4,
+                        "dependentGloss": "said",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "dobj",
+                        "governor": 4,
+                        "governorGloss": "said",
+                        "dependent": 5,
+                        "dependentGloss": "DIALOGOBJECT",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "enhancedDependencies": [
+                      {
+                        "dep": "ROOT",
+                        "governor": 0,
+                        "governorGloss": "ROOT",
+                        "dependent": 2,
+                        "dependentGloss": "wrote",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 2,
+                        "governorGloss": "wrote",
+                        "dependent": 1,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 4,
+                        "governorGloss": "said",
+                        "dependent": 1,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "cc",
+                        "governor": 2,
+                        "governorGloss": "wrote",
+                        "dependent": 3,
+                        "dependentGloss": "and",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "conj:and",
+                        "governor": 2,
+                        "governorGloss": "wrote",
+                        "dependent": 4,
+                        "dependentGloss": "said",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "dobj",
+                        "governor": 4,
+                        "governorGloss": "said",
+                        "dependent": 5,
+                        "dependentGloss": "DIALOGOBJECT",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "enhancedPlusPlusDependencies": [
+                      {
+                        "dep": "ROOT",
+                        "governor": 0,
+                        "governorGloss": "ROOT",
+                        "dependent": 2,
+                        "dependentGloss": "wrote",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 2,
+                        "governorGloss": "wrote",
+                        "dependent": 1,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 4,
+                        "governorGloss": "said",
+                        "dependent": 1,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "cc",
+                        "governor": 2,
+                        "governorGloss": "wrote",
+                        "dependent": 3,
+                        "dependentGloss": "and",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "conj:and",
+                        "governor": 2,
+                        "governorGloss": "wrote",
+                        "dependent": 4,
+                        "dependentGloss": "said",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "dobj",
+                        "governor": 4,
+                        "governorGloss": "said",
+                        "dependent": 5,
+                        "dependentGloss": "DIALOGOBJECT",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "sentimentValue": "2",
+                    "sentiment": "Neutral",
+                    "sentimentDistribution": [
+                      0.00948890150209,
+                      0.08151008457469,
+                      0.75181246609457,
+                      0.14712526344967,
+                      0.01006328437897
+                    ],
+                    "sentimentTree": "(ROOT|sentiment\u003d2|prob\u003d0.752 (NP|sentiment\u003d2|prob\u003d0.996 I)\n  (VP|sentiment\u003d2|prob\u003d0.806\n    (@VP|sentiment\u003d2|prob\u003d0.975 (VP|sentiment\u003d2|prob\u003d0.956 wrote)\n      (CC|sentiment\u003d2|prob\u003d0.996 and))\n    (VP|sentiment\u003d2|prob\u003d0.786 (VBD|sentiment\u003d2|prob\u003d0.996 said) (NP|sentiment\u003d2|prob\u003d0.631 DIALOGOBJECT))))",
+                    "entitymentions": [
+                      {
+                        "docTokenBegin": 4,
+                        "docTokenEnd": 5,
+                        "tokenBegin": 4,
+                        "tokenEnd": 5,
+                        "text": "DIALOGOBJECT",
+                        "characterOffsetBegin": 17,
+                        "characterOffsetEnd": 29,
+                        "ner": "PERSON"
+                      }
+                    ],
+                    "tokens": [
+                      {
+                        "index": 1,
+                        "word": "I",
+                        "originalText": "I",
+                        "lemma": "I",
+                        "characterOffsetBegin": 0,
+                        "characterOffsetEnd": 1,
+                        "pos": "PRP",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 2,
+                        "word": "wrote",
+                        "originalText": "wrote",
+                        "lemma": "write",
+                        "characterOffsetBegin": 2,
+                        "characterOffsetEnd": 7,
+                        "pos": "VBD",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 3,
+                        "word": "and",
+                        "originalText": "and",
+                        "lemma": "and",
+                        "characterOffsetBegin": 8,
+                        "characterOffsetEnd": 11,
+                        "pos": "CC",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 4,
+                        "word": "said",
+                        "originalText": "said",
+                        "lemma": "say",
+                        "characterOffsetBegin": 12,
+                        "characterOffsetEnd": 16,
+                        "pos": "VBD",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 5,
+                        "word": "DIALOGOBJECT",
+                        "originalText": "DIALOGOBJECT",
+                        "lemma": "DIALOGOBJECT",
+                        "characterOffsetBegin": 17,
+                        "characterOffsetEnd": 29,
+                        "pos": "NNP",
+                        "ner": "PERSON",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "additionalProperties": {}
+                  }
+                ],
+                "additionalProperties": {}
+              }
+            },
+            {
+              "fragments": [
+                {
+                  "type": "DIALOG",
+                  "order": 2,
+                  "text": ", \"This is dialog written for a test.\""
+                }
+              ],
+              "nlpState": {
+                "sentences": [
+                  {
+                    "index": 0,
+                    "parse": "(ROOT\n  (S\n    (NP (DT This))\n    (VP (VBZ is)\n      (NP\n        (NP (NN dialog))\n        (VP (VBN written)\n          (PP (IN for)\n            (NP (DT a) (NN test))))))\n    (. .)))",
+                    "basicDependencies": [
+                      {
+                        "dep": "ROOT",
+                        "governor": 0,
+                        "governorGloss": "ROOT",
+                        "dependent": 3,
+                        "dependentGloss": "dialog",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 1,
+                        "dependentGloss": "This",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "cop",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 2,
+                        "dependentGloss": "is",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "acl",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 4,
+                        "dependentGloss": "written",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "case",
+                        "governor": 7,
+                        "governorGloss": "test",
+                        "dependent": 5,
+                        "dependentGloss": "for",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "det",
+                        "governor": 7,
+                        "governorGloss": "test",
+                        "dependent": 6,
+                        "dependentGloss": "a",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nmod",
+                        "governor": 4,
+                        "governorGloss": "written",
+                        "dependent": 7,
+                        "dependentGloss": "test",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "punct",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 8,
+                        "dependentGloss": ".",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "enhancedDependencies": [
+                      {
+                        "dep": "ROOT",
+                        "governor": 0,
+                        "governorGloss": "ROOT",
+                        "dependent": 3,
+                        "dependentGloss": "dialog",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 1,
+                        "dependentGloss": "This",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "cop",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 2,
+                        "dependentGloss": "is",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "acl",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 4,
+                        "dependentGloss": "written",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "case",
+                        "governor": 7,
+                        "governorGloss": "test",
+                        "dependent": 5,
+                        "dependentGloss": "for",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "det",
+                        "governor": 7,
+                        "governorGloss": "test",
+                        "dependent": 6,
+                        "dependentGloss": "a",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nmod:for",
+                        "governor": 4,
+                        "governorGloss": "written",
+                        "dependent": 7,
+                        "dependentGloss": "test",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "punct",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 8,
+                        "dependentGloss": ".",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "enhancedPlusPlusDependencies": [
+                      {
+                        "dep": "ROOT",
+                        "governor": 0,
+                        "governorGloss": "ROOT",
+                        "dependent": 3,
+                        "dependentGloss": "dialog",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 1,
+                        "dependentGloss": "This",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "cop",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 2,
+                        "dependentGloss": "is",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "acl",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 4,
+                        "dependentGloss": "written",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "case",
+                        "governor": 7,
+                        "governorGloss": "test",
+                        "dependent": 5,
+                        "dependentGloss": "for",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "det",
+                        "governor": 7,
+                        "governorGloss": "test",
+                        "dependent": 6,
+                        "dependentGloss": "a",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nmod:for",
+                        "governor": 4,
+                        "governorGloss": "written",
+                        "dependent": 7,
+                        "dependentGloss": "test",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "punct",
+                        "governor": 3,
+                        "governorGloss": "dialog",
+                        "dependent": 8,
+                        "dependentGloss": ".",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "sentimentValue": "2",
+                    "sentiment": "Neutral",
+                    "sentimentDistribution": [
+                      0.07791307803021,
+                      0.29056692435541,
+                      0.38025440716227,
+                      0.19092934516519,
+                      0.06033624528693
+                    ],
+                    "sentimentTree": "(ROOT|sentiment\u003d2|prob\u003d0.380 (NP|sentiment\u003d2|prob\u003d0.998 This)\n  (@S|sentiment\u003d2|prob\u003d0.440\n    (VP|sentiment\u003d2|prob\u003d0.503 (VBZ|sentiment\u003d2|prob\u003d0.989 is)\n      (NP|sentiment\u003d2|prob\u003d0.578 (NP|sentiment\u003d2|prob\u003d0.970 dialog)\n        (VP|sentiment\u003d2|prob\u003d0.852 (VBN|sentiment\u003d3|prob\u003d0.919 written)\n          (PP|sentiment\u003d2|prob\u003d0.946 (IN|sentiment\u003d2|prob\u003d0.992 for)\n            (NP|sentiment\u003d2|prob\u003d0.916 (DT|sentiment\u003d2|prob\u003d0.990 a) (NN|sentiment\u003d2|prob\u003d0.986 test))))))\n    (.|sentiment\u003d2|prob\u003d0.997 .)))",
+                    "entitymentions": [],
+                    "tokens": [
+                      {
+                        "index": 1,
+                        "word": "This",
+                        "originalText": "This",
+                        "lemma": "this",
+                        "characterOffsetBegin": 1,
+                        "characterOffsetEnd": 5,
+                        "pos": "DT",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 2,
+                        "word": "is",
+                        "originalText": "is",
+                        "lemma": "be",
+                        "characterOffsetBegin": 6,
+                        "characterOffsetEnd": 8,
+                        "pos": "VBZ",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 3,
+                        "word": "dialog",
+                        "originalText": "dialog",
+                        "lemma": "dialog",
+                        "characterOffsetBegin": 9,
+                        "characterOffsetEnd": 15,
+                        "pos": "NN",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 4,
+                        "word": "written",
+                        "originalText": "written",
+                        "lemma": "write",
+                        "characterOffsetBegin": 16,
+                        "characterOffsetEnd": 23,
+                        "pos": "VBN",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 5,
+                        "word": "for",
+                        "originalText": "for",
+                        "lemma": "for",
+                        "characterOffsetBegin": 24,
+                        "characterOffsetEnd": 27,
+                        "pos": "IN",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 6,
+                        "word": "a",
+                        "originalText": "a",
+                        "lemma": "a",
+                        "characterOffsetBegin": 28,
+                        "characterOffsetEnd": 29,
+                        "pos": "DT",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 7,
+                        "word": "test",
+                        "originalText": "test",
+                        "lemma": "test",
+                        "characterOffsetBegin": 30,
+                        "characterOffsetEnd": 34,
+                        "pos": "NN",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 8,
+                        "word": ".",
+                        "originalText": ".",
+                        "lemma": ".",
+                        "characterOffsetBegin": 34,
+                        "characterOffsetEnd": 35,
+                        "pos": ".",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "additionalProperties": {}
+                  }
+                ],
+                "additionalProperties": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "sentenceStates": [
+        {
+          "order": 1,
+          "fragments": [
+            {
+              "type": "NARRATIVE",
+              "order": 1,
+              "text": "I thought as a I hit the keys."
+            }
+          ],
+          "narrativeStates": [
+            {
+              "fragments": [
+                {
+                  "type": "NARRATIVE",
+                  "order": 1,
+                  "text": "I thought as a I hit the keys."
+                }
+              ],
+              "nlpState": {
+                "sentences": [
+                  {
+                    "index": 0,
+                    "parse": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP (VBD thought)\n      (SBAR (IN as)\n        (S\n          (NP (DT a) (PRP I))\n          (VP (VBD hit)\n            (NP (DT the) (NNS keys))))))\n    (. .)))",
+                    "basicDependencies": [
+                      {
+                        "dep": "ROOT",
+                        "governor": 0,
+                        "governorGloss": "ROOT",
+                        "dependent": 2,
+                        "dependentGloss": "thought",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 2,
+                        "governorGloss": "thought",
+                        "dependent": 1,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "mark",
+                        "governor": 6,
+                        "governorGloss": "hit",
+                        "dependent": 3,
+                        "dependentGloss": "as",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "det",
+                        "governor": 5,
+                        "governorGloss": "I",
+                        "dependent": 4,
+                        "dependentGloss": "a",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 6,
+                        "governorGloss": "hit",
+                        "dependent": 5,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "advcl",
+                        "governor": 2,
+                        "governorGloss": "thought",
+                        "dependent": 6,
+                        "dependentGloss": "hit",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "det",
+                        "governor": 8,
+                        "governorGloss": "keys",
+                        "dependent": 7,
+                        "dependentGloss": "the",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "dobj",
+                        "governor": 6,
+                        "governorGloss": "hit",
+                        "dependent": 8,
+                        "dependentGloss": "keys",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "punct",
+                        "governor": 2,
+                        "governorGloss": "thought",
+                        "dependent": 9,
+                        "dependentGloss": ".",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "enhancedDependencies": [
+                      {
+                        "dep": "ROOT",
+                        "governor": 0,
+                        "governorGloss": "ROOT",
+                        "dependent": 2,
+                        "dependentGloss": "thought",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 2,
+                        "governorGloss": "thought",
+                        "dependent": 1,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "mark",
+                        "governor": 6,
+                        "governorGloss": "hit",
+                        "dependent": 3,
+                        "dependentGloss": "as",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "det",
+                        "governor": 5,
+                        "governorGloss": "I",
+                        "dependent": 4,
+                        "dependentGloss": "a",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 6,
+                        "governorGloss": "hit",
+                        "dependent": 5,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "advcl:as",
+                        "governor": 2,
+                        "governorGloss": "thought",
+                        "dependent": 6,
+                        "dependentGloss": "hit",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "det",
+                        "governor": 8,
+                        "governorGloss": "keys",
+                        "dependent": 7,
+                        "dependentGloss": "the",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "dobj",
+                        "governor": 6,
+                        "governorGloss": "hit",
+                        "dependent": 8,
+                        "dependentGloss": "keys",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "punct",
+                        "governor": 2,
+                        "governorGloss": "thought",
+                        "dependent": 9,
+                        "dependentGloss": ".",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "enhancedPlusPlusDependencies": [
+                      {
+                        "dep": "ROOT",
+                        "governor": 0,
+                        "governorGloss": "ROOT",
+                        "dependent": 2,
+                        "dependentGloss": "thought",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 2,
+                        "governorGloss": "thought",
+                        "dependent": 1,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "mark",
+                        "governor": 6,
+                        "governorGloss": "hit",
+                        "dependent": 3,
+                        "dependentGloss": "as",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "det",
+                        "governor": 5,
+                        "governorGloss": "I",
+                        "dependent": 4,
+                        "dependentGloss": "a",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "nsubj",
+                        "governor": 6,
+                        "governorGloss": "hit",
+                        "dependent": 5,
+                        "dependentGloss": "I",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "advcl:as",
+                        "governor": 2,
+                        "governorGloss": "thought",
+                        "dependent": 6,
+                        "dependentGloss": "hit",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "det",
+                        "governor": 8,
+                        "governorGloss": "keys",
+                        "dependent": 7,
+                        "dependentGloss": "the",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "dobj",
+                        "governor": 6,
+                        "governorGloss": "hit",
+                        "dependent": 8,
+                        "dependentGloss": "keys",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "dep": "punct",
+                        "governor": 2,
+                        "governorGloss": "thought",
+                        "dependent": 9,
+                        "dependentGloss": ".",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "sentimentValue": "3",
+                    "sentiment": "Positive",
+                    "sentimentDistribution": [
+                      0.00636219427242,
+                      0.02193437100118,
+                      0.28563871024116,
+                      0.61426087866044,
+                      0.07180384582481
+                    ],
+                    "sentimentTree": "(ROOT|sentiment\u003d3|prob\u003d0.614 (NP|sentiment\u003d2|prob\u003d0.996 I)\n  (@S|sentiment\u003d3|prob\u003d0.645\n    (VP|sentiment\u003d2|prob\u003d0.578 (VBD|sentiment\u003d2|prob\u003d0.997 thought)\n      (SBAR|sentiment\u003d2|prob\u003d0.585 (IN|sentiment\u003d2|prob\u003d0.990 as)\n        (S|sentiment\u003d2|prob\u003d0.482\n          (NP|sentiment\u003d2|prob\u003d0.798 (DT|sentiment\u003d2|prob\u003d0.990 a) (PRP|sentiment\u003d2|prob\u003d0.996 I))\n          (VP|sentiment\u003d2|prob\u003d0.688 (VBD|sentiment\u003d3|prob\u003d0.909 hit)\n            (NP|sentiment\u003d2|prob\u003d0.846 (DT|sentiment\u003d2|prob\u003d0.994 the) (NNS|sentiment\u003d2|prob\u003d0.631 keys))))))\n    (.|sentiment\u003d2|prob\u003d0.997 .)))",
+                    "entitymentions": [],
+                    "tokens": [
+                      {
+                        "index": 1,
+                        "word": "I",
+                        "originalText": "I",
+                        "lemma": "I",
+                        "characterOffsetBegin": 0,
+                        "characterOffsetEnd": 1,
+                        "pos": "PRP",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 2,
+                        "word": "thought",
+                        "originalText": "thought",
+                        "lemma": "think",
+                        "characterOffsetBegin": 2,
+                        "characterOffsetEnd": 9,
+                        "pos": "VBD",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 3,
+                        "word": "as",
+                        "originalText": "as",
+                        "lemma": "as",
+                        "characterOffsetBegin": 10,
+                        "characterOffsetEnd": 12,
+                        "pos": "IN",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 4,
+                        "word": "a",
+                        "originalText": "a",
+                        "lemma": "a",
+                        "characterOffsetBegin": 13,
+                        "characterOffsetEnd": 14,
+                        "pos": "DT",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 5,
+                        "word": "I",
+                        "originalText": "I",
+                        "lemma": "I",
+                        "characterOffsetBegin": 15,
+                        "characterOffsetEnd": 16,
+                        "pos": "PRP",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 6,
+                        "word": "hit",
+                        "originalText": "hit",
+                        "lemma": "hit",
+                        "characterOffsetBegin": 17,
+                        "characterOffsetEnd": 20,
+                        "pos": "VBD",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 7,
+                        "word": "the",
+                        "originalText": "the",
+                        "lemma": "the",
+                        "characterOffsetBegin": 21,
+                        "characterOffsetEnd": 24,
+                        "pos": "DT",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 8,
+                        "word": "keys",
+                        "originalText": "keys",
+                        "lemma": "key",
+                        "characterOffsetBegin": 25,
+                        "characterOffsetEnd": 29,
+                        "pos": "NNS",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      },
+                      {
+                        "index": 9,
+                        "word": ".",
+                        "originalText": ".",
+                        "lemma": ".",
+                        "characterOffsetBegin": 29,
+                        "characterOffsetEnd": 30,
+                        "pos": ".",
+                        "ner": "O",
+                        "additionalProperties": {}
+                      }
+                    ],
+                    "additionalProperties": {}
+                  }
+                ],
+                "additionalProperties": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

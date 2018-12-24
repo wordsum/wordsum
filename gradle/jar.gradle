@@ -1,17 +1,5 @@
-jar {
-
+bootJar {
     baseName = 'wordsum'
-    version =  '0.9.99'
-    dependsOn configurations.runtime
-
-    from {
-        (configurations.runtime).collect {
-            it.isDirectory() ? it : zipTree(it)
-        }
-    } {
-        exclude "META-INF/*.SF"
-        exclude "META-INF/*.DSA"
-        exclude "META-INF/*.RSA"
-    }
-
+    version =  '0.1.0'
 }
+
