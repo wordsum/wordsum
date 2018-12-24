@@ -1,3 +1,3 @@
-lowercase begins this sentence.
-Uppercase begins this sentence, but in the middle of the sentence there is a word with a capiTal in the middle.
+lowercase begins this fragments.
+Uppercase begins this fragments, but in the middle of the fragments there is a word with a capiTal in the middle.
 UPPPERlowerCASE at the beginning.
