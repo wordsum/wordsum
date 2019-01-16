@@ -1,7 +1,6 @@
 package com.wordsum.process.read.models.text;
 
 import com.wordsum.process.read.models.sentence.NarrativeState;
-import com.wordsum.process.read.models.sentence.punctuation.PunctuationState;
 import java.util.List;
 
 /**
@@ -29,7 +28,6 @@ public class SentenceState {
     private Integer order;
     private List<Fragment> fragments;
     private List<NarrativeState> narrativeStates;
-    private PunctuationState punctuationState;
 
     public Integer getOrder() {
         return order;
@@ -46,10 +44,6 @@ public class SentenceState {
     public void setFragments(List<Fragment> fragments) {
         this.fragments = fragments;
     }
-
-    public PunctuationState getPunctuationState() { return punctuationState; }
-
-    public void setPunctuationState(PunctuationState punctuationState) { this.punctuationState = punctuationState; }
 
     public List<NarrativeState> getNarrativeStates() {
         return narrativeStates;
